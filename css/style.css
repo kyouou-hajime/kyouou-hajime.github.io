@@ -145,6 +145,18 @@ p {
   background: var(--color-gold-light);
 }
 
+.nav-lang {
+  font-size: 0.8rem !important;
+  letter-spacing: 0.05em;
+  border: 1px solid var(--color-border) !important;
+  padding: 5px 10px !important;
+  border-radius: 2px;
+}
+.nav-lang:hover {
+  border-color: var(--color-gold) !important;
+  color: var(--color-gold-light);
+}
+
 .nav-toggle {
   display: none;
   background: none;
