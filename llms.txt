@@ -1,0 +1,31 @@
+# 饗応 元（キョウオウハジメ / KYŌŌ HAJIME）
+
+> 京都・地下鉄丸太町駅から徒歩3分。「酒匠」の称号を持つ店主が営む、14席の隠れ家レストラン。旬の魚や馬刺しなどの厳選素材と、料理に寄り添う日本酒のペアリングを提供する。
+
+## 基本情報
+
+- 店名: 饗応 元（キョウオウハジメ）
+- 住所: 〒604-0864 京都府京都市中京区両替町通夷川上る松竹町135-1
+- アクセス: 京都市営地下鉄烏丸線「丸太町駅」4番・5番出口から徒歩約3分
+- 電話番号: 075-600-0511
+- 営業時間: 月・火・木・金・土 18:00〜翌2:00（23:00最終入店）／水曜 11:45〜13:45（ランチ）・18:00〜翌2:00（23:00最終入店）
+- 定休日: 日曜日（不定休あり）
+- 座席数: 14席
+- 予約: WEB予約（res-reserve.com）または電話
+- Instagram: https://www.instagram.com/kyouou.hajime/
+
+## 特徴
+
+- 店主は「酒匠」の称号を保持し、料理に合わせて日本酒をセレクトする
+- 旬の魚や馬刺しをはじめとする厳選素材を、店主自らが目利きする
+- 和食の伝統とイタリアンで培った自由な発想を組み合わせた料理を提供する
+- 接待・記念日・少人数の会食に利用される14席の隠れ家空間
+
+## ページ
+
+- トップ: https://kyouou-hajime.github.io/kyouou-hajime-site/
+- メニュー: https://kyouou-hajime.github.io/kyouou-hajime-site/menu.html
+- こだわり（店主・コンセプト）: https://kyouou-hajime.github.io/kyouou-hajime-site/about.html
+- アクセス・店舗情報: https://kyouou-hajime.github.io/kyouou-hajime-site/access.html
+- よくある質問: https://kyouou-hajime.github.io/kyouou-hajime-site/faq.html
+- お知らせ: https://kyouou-hajime.github.io/kyouou-hajime-site/news.html
