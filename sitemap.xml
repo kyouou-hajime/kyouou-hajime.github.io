@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kyouou-hajime.github.io/kyouou-hajime-site/</loc>
+    <loc>https://kyouou-hajime.github.io/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://kyouou-hajime.github.io/kyouou-hajime-site/menu.html</loc>
+    <loc>https://kyouou-hajime.github.io/menu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kyouou-hajime.github.io/kyouou-hajime-site/about.html</loc>
+    <loc>https://kyouou-hajime.github.io/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kyouou-hajime.github.io/kyouou-hajime-site/access.html</loc>
+    <loc>https://kyouou-hajime.github.io/access.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kyouou-hajime.github.io/kyouou-hajime-site/faq.html</loc>
+    <loc>https://kyouou-hajime.github.io/faq.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyouou-hajime.github.io/kyouou-hajime-site/news.html</loc>
+    <loc>https://kyouou-hajime.github.io/news.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

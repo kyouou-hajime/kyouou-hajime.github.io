@@ -23,9 +23,9 @@
 
 ## ページ
 
-- トップ: https://kyouou-hajime.github.io/kyouou-hajime-site/
-- メニュー: https://kyouou-hajime.github.io/kyouou-hajime-site/menu.html
-- こだわり（店主・コンセプト）: https://kyouou-hajime.github.io/kyouou-hajime-site/about.html
-- アクセス・店舗情報: https://kyouou-hajime.github.io/kyouou-hajime-site/access.html
-- よくある質問: https://kyouou-hajime.github.io/kyouou-hajime-site/faq.html
-- お知らせ: https://kyouou-hajime.github.io/kyouou-hajime-site/news.html
+- トップ: https://kyouou-hajime.github.io/
+- メニュー: https://kyouou-hajime.github.io/menu.html
+- こだわり（店主・コンセプト）: https://kyouou-hajime.github.io/about.html
+- アクセス・店舗情報: https://kyouou-hajime.github.io/access.html
+- よくある質問: https://kyouou-hajime.github.io/faq.html
+- お知らせ: https://kyouou-hajime.github.io/news.html
