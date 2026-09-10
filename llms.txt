@@ -31,3 +31,7 @@
 - アクセス・店舗情報: https://kyouou-hajime.github.io/access.html
 - よくある質問: https://kyouou-hajime.github.io/faq.html
 - お知らせ: https://kyouou-hajime.github.io/news.html
+- ブログ: https://kyouou-hajime.github.io/blog.html
+  - 秋あがりの日本酒「吟麗」入荷: https://kyouou-hajime.github.io/blog-hiyaoroshi.html
+  - 肉会レポート（黒毛和牛コース）: https://kyouou-hajime.github.io/blog-nikukai-report.html
+  - 店主が仕入れる旬の食材（つる紫・里芋）: https://kyouou-hajime.github.io/blog-ingredients.html
