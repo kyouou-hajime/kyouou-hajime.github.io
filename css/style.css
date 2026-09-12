@@ -167,7 +167,7 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1080px) {
   .main-nav {
     position: fixed;
     inset: 68px 0 0 0;
