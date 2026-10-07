@@ -32,6 +32,29 @@
 - 未解決：Vercel反映後に旧URLが301または308で現行トップへ転送され、旧本文が200表示されないことを確認する。検索結果の切替時期は保証しない。
 - 確認待ち質問：追加なし。外部ホスティング・認証操作のため通常質問5件には計上しない。
 
+### ブログ一覧と3記事をBlog構造化データで接続（GitHub反映済み）
+- 対象：blog.html、blog-hiyaoroshi.html、blog-nikukai-report.html、blog-ingredients.html、sitemap.xml。
+- 修正前：ブログ一覧はBreadcrumbListのみ。個別3記事にはBlogPostingがあったが、記事固有の@idと一覧からの記事関係が未定義。
+- 修正後：
+  - blog.htmlへBlog構造化データを追加し、名称・URL・説明・発行元・言語を既存表示から設定。
+  - BlogのblogPostに、表示中の3記事を記事固有@idで登録。
+  - 個別3記事のBlogPostingへ同じ@idを追加し、一覧と記事を機械可読で接続。
+  - sitemap.xmlの対象4URLのlastmodを2026-10-08へ更新。
+- 理由：記事一覧と各記事の所属関係を検索エンジン・AIへ明示し、店舗Restaurant実体、ブログ、記事の関係を一貫したIDで結ぶため。
+- 根拠：Schema.orgはBlogのblogPostプロパティについて「このブログの一部である投稿」と定義し、値にBlogPostingを指定している。
+  - https://schema.org/Blog
+  - https://schema.org/blogPost
+- 変更していないもの：画面本文、記事タイトル、説明、公開日、画像、料理、価格、営業時間、予約条件。
+- コミット：
+  - blog.html：e6d1460d020261744ac41b8e511b31ae0b4ec5eb
+  - blog-hiyaoroshi.html：c754c6d7fa8b8276f589fb70cd467715830ef432
+  - blog-nikukai-report.html：040b4a9d5f528fdd1a948cf644ad50877713bbdf
+  - blog-ingredients.html：9bcf8ce2476b6b40bcc3bfa63ac4c18394369f78
+  - sitemap.xml：694ad0b6a8d447d4798a70131163d8ac35d69488
+- 検証：GitHub保存内容を再取得。4ページの全JSON-LD構文解析成功、Blog 1件、BlogPosting 3件、一覧と記事の@id完全一致を確認。sitemap.xmlの対象4URLは2026-10-08へ更新済み。
+- 状態：GitHub反映済み／公開URL反映待ち。
+- 未解決：GitHub Pages公開反映、検索側の再取得、AI引用は未確認。確認待ち質問の追加なし。
+
 ## 2026-10-07
 
 ### モバイルの予約メニュー操作領域を拡大（公開反映確認済み）
