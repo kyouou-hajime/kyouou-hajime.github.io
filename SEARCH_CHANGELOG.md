@@ -114,7 +114,7 @@
 - 検証：各ファイルをGitHubから再取得し、旧表記0件、正式表記あり、全JSON-LDのJSON構文解析成功を確認。2026-10-07に公開9ページを再取得し、全ページで旧表記0件・正式表記ありを確認。
 - 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
-### X・SNS共有カード情報を11ページへ補完（GitHub反映済み・公開確認待ち）
+### X・SNS共有カード情報を11ページへ補完（公開反映確認済み）
 - 対象：about.html、access.html、blog-hiyaoroshi.html、blog-ingredients.html、blog-nikukai-report.html、blog.html、faq.html、marutamachi-sake.html、menu.html、news.html、sakasho.html
 - 差分：各ページへ `twitter:card=summary_large_image`、`twitter:title`、`twitter:description`、`twitter:image` を追加。既存のOGタイトル・説明文・画像URLをそのまま同期した。
 - 既存状況：index.htmlとnikukai.htmlは同情報を既に実装済みのため変更なし。通常13ページすべてに共有カード情報が揃う構成とした。
@@ -132,8 +132,8 @@
   - menu.html：19beb9d7867c2d94f8a7b55b2d2ff6cf34dfeac2
   - news.html：2359a867042fc35543e855fbf122e89e2f3ad495
   - sakasho.html：7ee89b26702445b310046ffecc0d203a09e76f14
-- 検証：各ファイルをGitHubから再取得。カード指定が各1件で重複せず、X向けタイトル・説明・画像がOG情報と一致することを確認。
-- 未解決：公開URLの反映、各SNS側のキャッシュ更新・実際の表示、検索側の再取得は未確認。確認待ち質問の追加なし。
+- 検証：各ファイルをGitHubから再取得。カード指定が各1件で重複せず、X向けタイトル・説明・画像がOG情報と一致することを確認。GitHub Pagesのデプロイ成功後、2026-10-07に公開11ページを再取得し、各ページでcard・title・description・imageが各1件存在することを確認。
+- 未解決：各SNS側のキャッシュ更新・実際のカード表示、検索側の再取得は未確認。確認待ち質問の追加なし。
 
 ### 点検結果
 - リポジトリ内のHTML14ファイル（通常13ページ＋404）を点検。
