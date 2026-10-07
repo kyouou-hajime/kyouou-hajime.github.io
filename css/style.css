@@ -184,7 +184,24 @@ p {
     transform: translateX(0);
   }
   .nav-toggle {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    min-height: 48px;
+    padding: 8px;
+  }
+
+  .main-nav a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 48px;
+    padding: 10px 2px;
+  }
+
+  .main-nav .nav-cta {
+    justify-content: center;
   }
 }
 
