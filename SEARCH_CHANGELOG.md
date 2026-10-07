@@ -6,7 +6,7 @@
 
 ## 2026-10-07
 
-### ブログ3記事へBlogPosting構造化データ追加（GitHub反映済み・公開確認待ち）
+### ブログ3記事へBlogPosting構造化データ追加（公開反映確認済み）
 - 対象：blog-hiyaoroshi.html、blog-ingredients.html、blog-nikukai-report.html。
 - 追加：各記事の画面本文・meta情報に既にある見出し、説明、代表画像、公開日を、`BlogPosting` JSON-LDとして明示。
 - 追加：`author` と `publisher` に公式トップURLおよびトップページRestaurant実体の共通 `@id: https://kyouou-hajime.github.io/#restaurant` を設定。各記事のcanonical URLを `mainEntityOfPage` に設定。
@@ -19,8 +19,11 @@
   - blog-hiyaoroshi.html：8975c067a68a6d711917958221326e5c8da47799
   - blog-ingredients.html：bb230e5674da5ed7a55e3f93c8d582b2b69fe1aa
   - blog-nikukai-report.html：b9c2ef4bca55b6a404dda37dc8050e8a2a299d85
-- 検証：GitHub保存内容を再読込し、3ページともBreadcrumbListとBlogPostingのJSON構文解析成功、各BlogPostingの見出し・説明・画像・公開日・URL・店舗@idが対象ページと一致することを確認。
-- 未解決：公開URLへの反映、検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+- 検証：GitHub保存内容を再読込し、3ページともBreadcrumbListとBlogPostingのJSON構文解析成功、各BlogPostingの見出し・説明・画像・公開日・URL・店舗@idが対象ページと一致することを確認。GitHub Pagesのデプロイ成功後、2026-10-07に公開3ページを再取得し、BlogPosting各1件、公開日3件、店舗@id計6件が公開HTMLへ反映されたことを確認。
+  - https://kyouou-hajime.github.io/blog-hiyaoroshi.html
+  - https://kyouou-hajime.github.io/blog-ingredients.html
+  - https://kyouou-hajime.github.io/blog-nikukai-report.html
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
 
 ### 「酒匠とは」Article構造化データ補強（公開反映確認済み）
