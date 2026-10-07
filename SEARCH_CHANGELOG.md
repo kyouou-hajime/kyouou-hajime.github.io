@@ -6,7 +6,7 @@
 
 ## 2026-10-07
 
-### 「酒匠とは」Article構造化データ補強（GitHub反映済み・公開確認待ち）
+### 「酒匠とは」Article構造化データ補強（公開反映確認済み）
 - 対象：sakasho.html の Article JSON-LD。
 - 追加：記事本文でも使用している代表画像 `https://kyouou-hajime.github.io/images/sake_collection.jpg` を `image` に設定。
 - 追加：`author` と `publisher` に公式トップURLと、トップページのRestaurant実体を示す `@id: https://kyouou-hajime.github.io/#restaurant` を設定。店名・組織種別は既存のまま。
@@ -15,8 +15,9 @@
   - https://developers.google.com/search/docs/appearance/structured-data/article
 - 変更していないもの：本文、タイトル、料理、価格、営業時間、予約条件、画像ファイル。
 - コミット：02dbc0a08437d015ddcdc31abbccd3c4e449f5f6
-- 検証：GitHub保存内容を再読込し、JSON構文解析成功、image・author/publisherのURLと@idが意図どおり存在することを確認。
-- 未解決：公開URLへの反映、検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+- 検証：GitHub保存内容を再読込し、JSON構文解析成功、image・author/publisherのURLと@idが意図どおり存在することを確認。GitHub Pagesのデプロイ成功後、2026-10-07に公開URLを再取得し、代表画像1件・店舗@id 2件が公開HTMLへ反映されたことを確認。
+  - 公開URL：https://kyouou-hajime.github.io/sakasho.html
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
 
 ### 昼営業に関するFAQ追加（公開反映確認済み）
