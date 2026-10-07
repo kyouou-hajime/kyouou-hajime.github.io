@@ -55,6 +55,22 @@
 - 状態：公開反映確認済み。
 - 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
+### アクセスページをRestaurant実体へ接続（GitHub反映済み）
+- 対象：access.html、sitemap.xml。
+- 修正前：アクセスページの構造化データはBreadcrumbListのみで、ページがトップのRestaurant実体を説明する店舗情報ページである関係が未定義。
+- 修正後：WebPage構造化データを追加し、ページ固有@id・正規URL・既存title/description・言語を設定。mainEntityでトップページのRestaurant共通@id、isPartOfでWebSite共通@idへ接続。sitemap.xmlのaccess.htmlのlastmodを2026-10-08へ更新。
+- 理由：住所・アクセス・営業時間・電話番号を掲載するページと、公式サイトの店舗実体を検索エンジン・AIへ明示的に関連付けるため。
+- 根拠：Schema.orgはmainEntityを「ページ等で説明される主要な実体」と定義し、Restaurantを主要実体とするWebPageの例を掲載している。
+  - https://schema.org/mainEntity
+  - https://schema.org/docs/datamodel.html
+- 変更していないもの：画面本文、住所、営業時間、電話番号、地図、予約URL、料理、価格。
+- コミット：
+  - access.html：faf1a9b0a7fc77999077da02f88e0d9ea788d129
+  - sitemap.xml：35192b217c73dde00082d20667ded9c94138e733
+- 検証：GitHub保存内容を再取得し、BreadcrumbList・WebPageのJSON構文解析成功、WebPageのmainEntity/isPartOfがトップページの共通@idと一致、sitemap更新を確認。
+- 状態：GitHub反映済み／公開URL反映待ち。
+- 未解決：GitHub Pages公開反映、検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
 ## 2026-10-07
 
 ### モバイルの予約メニュー操作領域を拡大（公開反映確認済み）
