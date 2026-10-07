@@ -96,7 +96,7 @@
   - 公開URL：https://kyouou-hajime.github.io/marutamachi-sake.html
 - 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
-### 正式店名「饗応 元」へ表記統一（GitHub反映済み・公開確認待ち）
+### 正式店名「饗応 元」へ表記統一（公開反映確認済み）
 - 対象：access.html、blog-hiyaoroshi.html、blog-ingredients.html、blog-nikukai-report.html、blog.html、faq.html、marutamachi-sake.html、news.html、nikukai.html
 - 差分：9ページ・42か所の「饗応元」を、正式店名の空白を含む「饗応 元」へ統一。title、meta description、OG/Twitter説明、本文、画像・地図説明、FAQPage JSON-LDを含む。
 - 理由：公式サイト内の固有名詞表記を統一し、利用者・検索エンジン・AI検索へ同じ店舗名を一貫して提示するため。
@@ -111,8 +111,8 @@
   - marutamachi-sake.html：6dcc0f2e26ebd3db0e9e64dafd5b4a53994a10bd
   - news.html：b08347547f267d64fd8936547b6cf77b888cce5e
   - nikukai.html：5a8039fb44a16b8f9d0a07a7f65d8a11bafa6275
-- 検証：各ファイルをGitHubから再取得し、旧表記0件、正式表記あり、全JSON-LDのJSON構文解析成功を確認。
-- 未解決：公開URLの反映、検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+- 検証：各ファイルをGitHubから再取得し、旧表記0件、正式表記あり、全JSON-LDのJSON構文解析成功を確認。2026-10-07に公開9ページを再取得し、全ページで旧表記0件・正式表記ありを確認。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
 ### 点検結果
 - リポジトリ内のHTML14ファイル（通常13ページ＋404）を点検。
