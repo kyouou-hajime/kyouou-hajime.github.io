@@ -6,6 +6,23 @@
 
 ## 2026-10-08
 
+### 予約・営業FAQをRestaurant・WebSite実体へ接続（公開反映確認済み）
+- 対象：faq.html、sitemap.xml。
+- 修正前：FAQPageは11件のQuestion/Answerのみで、ページ固有ID・正規URL・ページ名・説明・言語と、公式店舗・サイトとの関係が未定義。
+- 修正後：既存FAQPageへページ固有@id、正規URL、既存title/description、言語を追加。about・publisherでRestaurant共通@id、isPartOfでWebSite共通@idへ接続。sitemap.xmlのfaq.htmlのlastmodを2026-10-08へ更新。
+- 理由：予約・営業時間・アクセス・料理・日本酒に関する11問が、饗応 元の公式FAQであることを検索エンジン・AIへ機械可読で示すため。
+- 根拠：Schema.orgはFAQPageを複数のよくある質問を提示するWebPageと定義し、継承するCreativeWorkのaboutでページの主題、isPartOfで所属するCreativeWorkを示せるとしている。
+  - https://schema.org/FAQPage
+  - https://schema.org/about
+  - https://schema.org/isPartOf
+- 変更していないもの：表示中の質問・回答11件、営業時間、予約条件、料理、価格、リンク、本文。
+- コミット：
+  - faq.html：eeace768151ea8c16ba4a3db0e8a07b52ad94bdc
+  - sitemap.xml：36afbdc02f0e653a7b32a93e0ec0428d0067038f
+- 検証：GitHub保存内容を再取得し、BreadcrumbList・FAQPageの全JSON構文解析成功、質問回答11件維持、Restaurant/WebSite共通@id、sitemap更新を確認。GitHub Pagesのデプロイ成功後、2026-10-08に公開faq.htmlとsitemap.xmlを再取得して同内容を確認。
+- 状態：公開反映確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。FAQリッチリザルトを期待する施策ではない。確認待ち質問の追加なし。
+
 ### 料理・酒ページをRestaurant実体のMenuとして接続（公開反映確認済み）
 - 対象：index.html、menu.html、sitemap.xml。
 - 修正前：トップページのRestaurantは旧プロパティmenuで料理・酒ページのURLだけを指定。料理・酒ページの構造化データはBreadcrumbListのみで、店舗のメニュー実体との関係が未定義。
