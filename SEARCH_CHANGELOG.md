@@ -67,9 +67,9 @@
 - コミット：
   - access.html：faf1a9b0a7fc77999077da02f88e0d9ea788d129
   - sitemap.xml：35192b217c73dde00082d20667ded9c94138e733
-- 検証：GitHub保存内容を再取得し、BreadcrumbList・WebPageのJSON構文解析成功、WebPageのmainEntity/isPartOfがトップページの共通@idと一致、sitemap更新を確認。
-- 状態：GitHub反映済み／公開URL反映待ち。
-- 未解決：GitHub Pages公開反映、検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+- 検証：GitHub保存内容を再取得し、BreadcrumbList・WebPageのJSON構文解析成功、WebPageのmainEntity/isPartOfがトップページの共通@idと一致、sitemap更新を確認。GitHub Pagesのデプロイ成功後、2026-10-08に公開access.htmlとsitemap.xmlを再取得し、WebPage固有@id、Restaurant/WebSite共通@id各1件、lastmod更新を確認。
+- 状態：公開反映確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
 ## 2026-10-07
 
