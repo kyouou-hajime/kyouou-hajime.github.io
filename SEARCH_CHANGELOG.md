@@ -6,6 +6,24 @@
 
 ## 2026-10-08
 
+### お知らせ一覧をCollectionPageとして店舗実体へ接続（公開反映確認済み）
+- 対象：news.html、sitemap.xml。
+- 修正前：お知らせページの構造化データはBreadcrumbListのみで、一覧ページ種別、店舗・公式サイト・発行元との関係が未定義。
+- 修正後：CollectionPage構造化データを追加し、ページ固有@id、正規URL、既存title/description、言語を設定。about・publisherでRestaurant共通@id、isPartOfでWebSite共通@idへ接続。sitemap.xmlのnews.htmlのlastmodを2026-10-08へ更新。
+- 理由：営業・イベント等のお知らせをまとめた公式一覧ページであり、発行主体が饗応 元であることを検索エンジン・AIへ機械可読で示すため。
+- 根拠：Schema.orgはCollectionPageをコレクションページ用のWebPage型と定義し、継承するCreativeWorkのabout・isPartOf等を利用できるとしている。
+  - https://schema.org/CollectionPage
+  - https://schema.org/about
+  - https://schema.org/isPartOf
+- 意図的に追加していないもの：個別EventやOffer。開催条件・価格・営業予定の変化による構造化データの不一致を避けるため。
+- 変更していないもの：画面本文、告知日、イベント内容、価格、営業時間、予約URL、画像。
+- コミット：
+  - news.html：de30959b15fe1d69e55790d62db4639b0690496a
+  - sitemap.xml：48cee152e60810c37ad98dc40b4a534fd29c7bff
+- 検証：GitHub保存内容を再取得し、BreadcrumbList・CollectionPageの全JSON構文解析成功、Restaurant/WebSite共通@id、sitemap更新を確認。GitHub Pagesのデプロイ成功後、2026-10-08に公開news.htmlとsitemap.xmlを再取得して同内容を確認。
+- 状態：公開反映確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
 ### 予約・営業FAQをRestaurant・WebSite実体へ接続（公開反映確認済み）
 - 対象：faq.html、sitemap.xml。
 - 修正前：FAQPageは11件のQuestion/Answerのみで、ページ固有ID・正規URL・ページ名・説明・言語と、公式店舗・サイトとの関係が未定義。
