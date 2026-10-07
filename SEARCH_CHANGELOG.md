@@ -6,6 +6,28 @@
 
 ## 2026-10-08
 
+### 料理・酒ページをRestaurant実体のMenuとして接続（公開反映確認済み）
+- 対象：index.html、menu.html、sitemap.xml。
+- 修正前：トップページのRestaurantは旧プロパティmenuで料理・酒ページのURLだけを指定。料理・酒ページの構造化データはBreadcrumbListのみで、店舗のメニュー実体との関係が未定義。
+- 修正後：
+  - Restaurantの旧menu指定を現行hasMenuへ置換し、料理・酒ページのMenu固有@idを参照。
+  - menu.htmlへMenu構造化データを追加し、既存title/descriptionに基づく名称・説明・正規URL・言語を設定。
+  - MenuをaboutでRestaurant共通@id、isPartOfでWebSite共通@idへ接続。
+  - sitemap.xmlのトップとmenu.htmlのlastmodを2026-10-08へ更新。
+- 理由：店舗と公式の料理・酒ページの関係を、URLだけでなく同一Menu実体として検索エンジン・AIへ明示するため。
+- 根拠：Schema.orgはMenuを「FoodEstablishmentで提供される飲食物の構造化表現」、hasMenuをMenu・テキスト・URLで実際のメニューを示すFoodEstablishment用プロパティと定義し、旧menuをhasMenuが置き換えるとしている。
+  - https://schema.org/Menu
+  - https://schema.org/hasMenu
+- 意図的に追加していないもの：日替わりの在庫・価格・個別MenuItem。表示内容との不一致を避けるため。
+- 変更していないもの：画面本文、見出し、料理名、価格、営業時間、予約URL、画像。
+- コミット：
+  - index.html：d3fa2587695af6fb15a679653600f20f82e6113d
+  - menu.html：44fa8343a5bb224d374d22a8f3a38af76fc70c3a
+  - sitemap.xml：1e945f2c7f97e31429e424d4c0d4c5c02df67098
+- 検証：GitHub保存内容を再取得し、全JSON-LD構文解析成功、RestaurantのhasMenuとMenuの@id完全一致、旧menu指定の除去、Restaurant/WebSite共通@id、sitemap更新を確認。GitHub Pagesのデプロイ成功後、2026-10-08に公開トップ・menu.html・sitemap.xmlを再取得して同内容を確認。
+- 状態：公開反映確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
 ### 「こだわり」ページを店舗実体へ接続（公開反映確認済み）
 - 対象：about.html、sitemap.xml。
 - 修正前：こだわりページの構造化データはBreadcrumbListのみで、ページ種別と、トップページのRestaurant実体との関係が未定義。
