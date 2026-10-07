@@ -6,6 +6,19 @@
 
 ## 2026-10-07
 
+### 「酒匠とは」Article構造化データ補強（GitHub反映済み・公開確認待ち）
+- 対象：sakasho.html の Article JSON-LD。
+- 追加：記事本文でも使用している代表画像 `https://kyouou-hajime.github.io/images/sake_collection.jpg` を `image` に設定。
+- 追加：`author` と `publisher` に公式トップURLと、トップページのRestaurant実体を示す `@id: https://kyouou-hajime.github.io/#restaurant` を設定。店名・組織種別は既存のまま。
+- 理由：記事の代表画像と発行主体を検索エンジンへ明示し、トップページの店舗実体と記事の組織表現を同一IDで結ぶため。
+- 根拠：Google Article構造化データ公式ガイド（2026-09-08更新）は、適用できる推奨プロパティの追加、記事を代表する `image`、著者を識別する `url` を案内している。
+  - https://developers.google.com/search/docs/appearance/structured-data/article
+- 変更していないもの：本文、タイトル、料理、価格、営業時間、予約条件、画像ファイル。
+- コミット：02dbc0a08437d015ddcdc31abbccd3c4e449f5f6
+- 検証：GitHub保存内容を再読込し、JSON構文解析成功、image・author/publisherのURLと@idが意図どおり存在することを確認。
+- 未解決：公開URLへの反映、検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
+
 ### 昼営業に関するFAQ追加（公開反映確認済み）
 - 対象：faq.html。既存9問に「ランチ営業はしていますか？」「最終日曜日の昼飲みは開催していますか？」の2問を追加。新しいページは作成しない。
 - 追加回答：
