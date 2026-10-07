@@ -6,6 +6,23 @@
 
 ## 2026-10-07
 
+### ブログ3記事へBlogPosting構造化データ追加（GitHub反映済み・公開確認待ち）
+- 対象：blog-hiyaoroshi.html、blog-ingredients.html、blog-nikukai-report.html。
+- 追加：各記事の画面本文・meta情報に既にある見出し、説明、代表画像、公開日を、`BlogPosting` JSON-LDとして明示。
+- 追加：`author` と `publisher` に公式トップURLおよびトップページRestaurant実体の共通 `@id: https://kyouou-hajime.github.io/#restaurant` を設定。各記事のcanonical URLを `mainEntityOfPage` に設定。
+- 公開日：ひやおろし記事 2026-09-10、食材記事 2026-09-08、肉会記事 2026-09-09。画面表示とブログ一覧の既存日付を照合。
+- 理由：従来はパンくず構造化データのみだったため、ブログ記事であること、見出し・画像・公開日・発行主体を検索エンジンへ機械可読で伝えるため。
+- 根拠：Google Article構造化データ公式ガイド（2026-09-08更新）は、BlogPostingを対象型に含め、headline・image・datePublished・author等を推奨プロパティとして案内している。
+  - https://developers.google.com/search/docs/appearance/structured-data/article
+- 変更していないもの：記事本文、表示上の公開日、タイトル、料理、価格、営業時間、予約条件、画像ファイル。dateModifiedは正確な更新日時を画面に掲載していないため追加していない。
+- コミット：
+  - blog-hiyaoroshi.html：8975c067a68a6d711917958221326e5c8da47799
+  - blog-ingredients.html：bb230e5674da5ed7a55e3f93c8d582b2b69fe1aa
+  - blog-nikukai-report.html：b9c2ef4bca55b6a404dda37dc8050e8a2a299d85
+- 検証：GitHub保存内容を再読込し、3ページともBreadcrumbListとBlogPostingのJSON構文解析成功、各BlogPostingの見出し・説明・画像・公開日・URL・店舗@idが対象ページと一致することを確認。
+- 未解決：公開URLへの反映、検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
+
 ### 「酒匠とは」Article構造化データ補強（公開反映確認済み）
 - 対象：sakasho.html の Article JSON-LD。
 - 追加：記事本文でも使用している代表画像 `https://kyouou-hajime.github.io/images/sake_collection.jpg` を `image` に設定。
