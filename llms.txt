@@ -14,6 +14,12 @@
 - 予約: アラカルトのお席予約も可能。コースは来店日の2日前までに予約。WEB予約（res-reserve.com）または電話（075-600-0511、当日23:00まで受付）
 - Instagram: https://www.instagram.com/kyouou.hajime/
 
+## 営業企画の現況（2026-10-07確認）
+
+- 水曜の担々麺ランチは休止中です。
+- 最終日曜の昼飲み企画は終了しました。
+- 営業日・日曜営業は、最新の店舗案内を確認してください。
+
 ## 特徴
 
 - 店主は「酒匠」の称号を保持し、料理に合わせて日本酒をセレクトする
@@ -26,6 +32,8 @@
 
 - トップ: https://kyouou-hajime.github.io/
 - メニュー: https://kyouou-hajime.github.io/menu.html
+- 酒匠とは: https://kyouou-hajime.github.io/sakasho.html
+- 丸太町と日本酒: https://kyouou-hajime.github.io/marutamachi-sake.html
 - 肉会（毎月29日限定の黒毛和牛コース）: https://kyouou-hajime.github.io/nikukai.html
 - こだわり（店主・コンセプト）: https://kyouou-hajime.github.io/about.html
 - アクセス・店舗情報: https://kyouou-hajime.github.io/access.html
