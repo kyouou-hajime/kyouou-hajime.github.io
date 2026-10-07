@@ -51,9 +51,9 @@
   - blog-nikukai-report.html：040b4a9d5f528fdd1a948cf644ad50877713bbdf
   - blog-ingredients.html：9bcf8ce2476b6b40bcc3bfa63ac4c18394369f78
   - sitemap.xml：694ad0b6a8d447d4798a70131163d8ac35d69488
-- 検証：GitHub保存内容を再取得。4ページの全JSON-LD構文解析成功、Blog 1件、BlogPosting 3件、一覧と記事の@id完全一致を確認。sitemap.xmlの対象4URLは2026-10-08へ更新済み。
-- 状態：GitHub反映済み／公開URL反映待ち。
-- 未解決：GitHub Pages公開反映、検索側の再取得、AI引用は未確認。確認待ち質問の追加なし。
+- 検証：GitHub保存内容を再取得。4ページの全JSON-LD構文解析成功、Blog 1件、BlogPosting 3件、一覧と記事の@id完全一致を確認。sitemap.xmlの対象4URLは2026-10-08へ更新済み。GitHub Pagesのデプロイ成功後、2026-10-08に公開4ページとsitemap.xmlを再取得し、Blog 1件、一覧のblogPost参照3件、個別BlogPostingの@id各1件、lastmod更新4件を確認。
+- 状態：公開反映確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
 
 ## 2026-10-07
 
