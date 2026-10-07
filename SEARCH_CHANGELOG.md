@@ -6,6 +6,19 @@
 
 ## 2026-10-07
 
+### 「丸太町と日本酒」へパンくず構造化データ追加（GitHub反映済み・公開確認待ち）
+- 対象：marutamachi-sake.html。
+- 追加：画面表示済みの「トップ ＞ 丸太町で日本酒」を、2階層の `BreadcrumbList` JSON-LDとして追加。
+- URL：トップ `https://kyouou-hajime.github.io/`、現在ページ `https://kyouou-hajime.github.io/marutamachi-sake.html`。
+- 理由：通常ページ13件のうち、このページだけ画面にパンくずがありながら検索向けパンくずデータがなく、サイト内階層の機械可読情報が不統一だったため。
+- 根拠：Google Breadcrumb公式ガイドは、パンくずがページのサイト階層上の位置を示し、検索結果でコンテンツを分類するために使用されると案内している。
+  - https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
+- 変更していないもの：本文、見出し、タイトル、料理、価格、営業時間、予約条件。
+- コミット：fdc88fb3bf7effb96ce7b7596fa98d4ccde0cb6c
+- 検証：GitHub保存内容を再読込し、JSON構文解析成功、ListItem 2件の名称・順位・URLが画面表示とcanonicalに一致することを確認。
+- 未解決：公開URLへの反映、検索側の再取得・表示は未確認。確認待ち質問の追加なし。
+
+
 ### ブログ3記事へBlogPosting構造化データ追加（公開反映確認済み）
 - 対象：blog-hiyaoroshi.html、blog-ingredients.html、blog-nikukai-report.html。
 - 追加：各記事の画面本文・meta情報に既にある見出し、説明、代表画像、公開日を、`BlogPosting` JSON-LDとして明示。
