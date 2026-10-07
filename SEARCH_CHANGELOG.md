@@ -6,6 +6,23 @@
 
 ## 2026-10-08
 
+### 「こだわり」ページを店舗実体へ接続（公開反映確認済み）
+- 対象：about.html、sitemap.xml。
+- 修正前：こだわりページの構造化データはBreadcrumbListのみで、ページ種別と、トップページのRestaurant実体との関係が未定義。
+- 修正後：AboutPage構造化データを追加。ページ固有@id・正規URL・既存title/description・言語を設定し、about/mainEntityでトップページのRestaurant共通@id、isPartOfでWebSite共通@idへ接続。sitemap.xmlのabout.htmlのlastmodを2026-10-08へ更新。
+- 理由：料理・食材・日本酒・店内について説明する既存ページが、饗応 元についての公式紹介ページであることを検索エンジン・AIへ機械可読で示すため。
+- 根拠：Schema.orgはAboutPageを「About pageのWebページ型」と定義し、CreativeWorkのaboutを「対象の主題」、mainEntityを「ページ等で説明される主要な実体」と定義している。
+  - https://schema.org/AboutPage
+  - https://schema.org/about
+  - https://schema.org/mainEntity
+- 変更していないもの：画面本文、見出し、料理、価格、営業時間、予約URL、画像。
+- コミット：
+  - about.html：6f4e607f6c853276d179adc7d0b62edd5dce407a
+  - sitemap.xml：4fac4c6701c1568ebeb09bd0e0b3e648bd0892fb
+- 検証：GitHub保存内容を再取得し、BreadcrumbList・AboutPageの全JSON構文解析成功、AboutPageのabout/mainEntity/isPartOfがトップページの共通@idと一致、sitemap更新を確認。GitHub Pagesのデプロイ成功後、2026-10-08に公開about.htmlとsitemap.xmlを再取得し、AboutPage固有@id、Restaurant/WebSite共通@id、lastmod更新を確認。
+- 状態：公開反映確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
 ### 旧Vercel版の重複公開を確認・恒久転送設定を完成（外部反映待ち）
 - 対象：旧公開URL https://kyouou-hajime.vercel.app/ 。
 - 修正前・確認：2026-10-08の店名検索で旧Vercel版が表示された。旧版は固定「18:00 - 02:00（23:00最終入店）」と「日曜日（不定休あり）」を掲載し、現行正本 https://kyouou-hajime.github.io/ の条件付き翌2時対応・不定休（日曜休業あり）と一致しない。
