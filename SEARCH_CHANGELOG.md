@@ -6,6 +6,25 @@
 
 ## 2026-10-08
 
+### 肉会FAQをRestaurant・WebSite実体へ接続（公開反映確認済み）
+- 対象：nikukai.html、sitemap.xml。
+- 点検：画面本文・meta description・FAQPageで、毎月29日、コース10,500円（ドリンク別）、2日前までの予約が一致。構造化データはBreadcrumbListとFAQPageのみ。
+- 修正前：FAQPageは3件のQuestion/Answerのみで、ページ固有ID・正規URL・ページ名・説明・言語、店舗・公式サイト・発行元との関係が未定義。
+- 修正後：既存FAQPageへページ固有@id、正規URL、既存title/description、言語を追加。about・publisherでRestaurant共通@id、isPartOfでWebSite共通@idへ接続。sitemap.xmlのnikukai.htmlのlastmodを2026-10-08へ更新。
+- 理由：肉会の内容・料金・予約条件に関する3問が、饗応 元の公式案内であることを検索エンジン・AIへ機械可読で示すため。
+- 根拠：Schema.orgはFAQPageを複数のよくある質問を提示するWebPageと定義し、継承するCreativeWorkのabout・isPartOf等を利用できるとしている。
+  - https://schema.org/FAQPage
+  - https://schema.org/about
+  - https://schema.org/isPartOf
+- 意図的に追加していないもの：単発Event。肉会は毎月29日の反復企画で、開催年月日を固定した単発イベントとして誤認させないため。
+- 変更していないもの：画面本文、質問回答3件、価格、開催条件、営業時間、予約URL、画像。
+- コミット：
+  - nikukai.html：6135cbc5f9d9019ca991aec7905f15ee8957d033
+  - sitemap.xml：c92f1d52c0b470c816829a4afd69792afc3580ae
+- 検証：GitHub保存内容を再取得し、BreadcrumbList・FAQPageの全JSON構文解析成功、質問回答3件維持、Restaurant/WebSite共通@id、価格回答1件、sitemap更新を確認。GitHub Pagesのデプロイ成功後、2026-10-08に公開nikukai.htmlとsitemap.xmlを再取得して同内容を確認。
+- 状態：公開反映確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
 ### お知らせ一覧をCollectionPageとして店舗実体へ接続（公開反映確認済み）
 - 対象：news.html、sitemap.xml。
 - 修正前：お知らせページの構造化データはBreadcrumbListのみで、一覧ページ種別、店舗・公式サイト・発行元との関係が未定義。
