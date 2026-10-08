@@ -457,3 +457,31 @@
 - 検証：GitHub保存後のindex.htmlと原稿を再取得し完全一致を確認。index変更のPages run 37730946493成功。公開トップで3ボタンと利用案内を確認し、予約案内ボタンをクリックして公開URL https://kyouou-hajime.github.io/#reservation へ到達確認。既存CSSのモバイル2列・第1ボタン全幅とmin-height48pxを確認。実機でのタップ感は未確認。
 - 状態：HPの追加導線は公開反映確認済み。再来店・口コミ・ストーリーズ・測定は原稿完成／実運用未確認。毎時タスクへの追加保存成功。
 - 未解決：口コミ投稿専用リンク、予約先Q-001、画像軽量化は従来どおり保留。実計測・予約増加・検索側再取得は未確認。次回優先：新導線のモバイル確認と、取得できた実集計に基づく改善。追加質問なし。
+
+
+### 2026-10-08 HPセキュリティ強化：14ページへCSP追加（GitHub保存済み）
+- ユーザー指示：HPのハッキング対策を強化する。
+- 修正前：14ページにCSPなし。実行JavaScriptはjs/main.jsのナビ開閉のみ。インライン実行コード・on*イベント属性・フォーム・baseタグ・javascript:リンクなし。検索データはapplication/ld+json。
+- 修正後：各ページのcharset直後へ、script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none' のmeta CSPを追加。外部・インラインJSとeval等、object/embed、baseタグ、フォーム送信を制限。外部予約は通常リンクのため対象外。CSS・写真・フォント・Googleマップを読み込む制限は今回は追加しない。
+- 対象：404.html、about.html、access.html、blog-hiyaoroshi.html、blog-ingredients.html、blog-nikukai-report.html、blog.html、faq.html、index.html、marutamachi-sake.html、menu.html、news.html、nikukai.html、sakasho.html。Google所有権確認ファイルは変更なし。
+- 根拠：https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy 。非JavaScript MIMEのscriptはデータブロックとして扱う：https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script 。
+- 検証：14ページの保存後内容を再取得し期待内容と完全一致、全JSON-LD構文解析成功。js/main.jsはイベント登録のみでeval/HTML挿入/外部依存なし。現在のテキストファイルで典型的なGitHubトークン・AWSアクセスキー・秘密鍵パターンは検出なし（限定的な点検で、履歴・画像・圧縮ファイル・全種類の秘密を保証しない）。
+- 毎時運用：セキュリティ点検を追加。2FA・権限・認証・ホスティング変更は自動実施しない。
+- コミット：
+  - 404.html：d466c975f88799773812983efff2222ae0d0d1a1
+  - about.html：8b7f91b2c0d076b24c001ab78bbe52e475d8bf7c
+  - access.html：1b08ff3f08c48bbd768b341999db0d78189ce294
+  - blog-hiyaoroshi.html：889e901794edecef8ca3608190b543f09e311921
+  - blog-ingredients.html：bc8434ed0dc9c6c85d3a5c82ea9f661135ed7ae6
+  - blog-nikukai-report.html：f686acc65e555366fb092bf7bf35f124e501b5c2
+  - blog.html：32f6188c178546b359df6cfd9962b24613622e36
+  - faq.html：9035b6f55bf4fe895db0054f8cb7cf0aad305109
+  - index.html：9eb013d1bbe465b3a09867063a636b870f1d38ea
+  - marutamachi-sake.html：b70651f48b1f636a7d8d4c0c7719527dacd38d70
+  - menu.html：5f1e7b5113989c2981e5478b53a6a72b274b4f9b
+  - news.html：705a94a1340dc6ad829801881eb24b29d7daea91
+  - nikukai.html：593431f2b00a8060968b0f406b87c23db2353d99
+  - sakasho.html：45949c06552913638ff7b85ae6ab6268e33a280f
+- 状態：GitHub保存・静的検証済み。公開反映と動作確認はデプロイ完了待ち（Pages run 37731604754）。
+- 限界：meta CSPはframe-ancestors等のHTTPヘッダー専用保護を提供しない。GitHubアカウントや同一オリジンの正規ファイルを乗っ取られた場合の防御ではない。アカウント2FA・保護ルール・トークン権限・ログイン状況は未確認。攻撃や漏えいの存在を断定しない。
+- 次回優先：公開CSP・ナビ・予約導線・地図・JSON-LDを確認し、今後の新ページでもCSPを維持する。実装前の元内容は各コミットの親から復元可能。
