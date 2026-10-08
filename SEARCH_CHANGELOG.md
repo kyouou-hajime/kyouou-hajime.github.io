@@ -6,6 +6,23 @@
 
 ## 2026-10-08
 
+### 「丸太町と日本酒」ページをRestaurant・WebSite実体へ接続（公開ページ反映確認済み）
+- 対象：marutamachi-sake.html、sitemap.xml。
+- 修正前：構造化データはBreadcrumbListのみで、この地域・日本酒案内ページと、トップページのRestaurant実体・公式WebSiteとの関係が未定義。
+- 修正後：WebPage構造化データを追加し、ページ固有@id、正規URL、既存title/description、言語を設定。about・mainEntity・publisherでRestaurant共通@id、isPartOfでWebSite共通@idへ接続。sitemap.xmlのmarutamachi-sake.htmlのlastmodを2026-10-08へ更新。
+- 理由：丸太町で日本酒を楽しむ利用場面を説明する既存ページが、饗応 元の公式案内であることを検索エンジン・AIへ機械可読で示すため。
+- 根拠：Schema.orgはWebPageをWebページ用の型とし、aboutを対象の主題、mainEntityをページで説明される主要実体、isPartOfを所属するCreativeWorkとして定義している。
+  - https://schema.org/WebPage
+  - https://schema.org/mainEntity
+  - https://schema.org/isPartOf
+- 変更していないもの：画面本文、見出し、料理、日本酒、価格、営業時間、予約条件、予約URL、画像。
+- コミット：
+  - marutamachi-sake.html：06784e5ce71191ca99b2ba00dbf24716adad60e2
+  - sitemap.xml：2691538ad41bddf24174ea29ffdd2264785cbb83
+- 検証：GitHub保存内容を再取得し、BreadcrumbList・WebPageの全JSON構文解析成功、Restaurant/WebSite共通@id、sitemap更新を確認。GitHub Pagesのデプロイ成功後、2026-10-08に公開marutamachi-sake.htmlを再取得し、WebPage固有@idとRestaurant/WebSite共通@idの反映を確認。公開sitemap.xmlは確認環境のクライアント制限で直接再取得できず、GitHub保存内容とデプロイ成功まで確認。
+- 状態：公開ページ反映確認済み。sitemapはGitHub反映・デプロイ成功確認済み。
+- 未解決：検索側の再取得・表示、AI引用は未確認。確認待ち質問の追加なし。
+
 ### 肉会FAQをRestaurant・WebSite実体へ接続（公開反映確認済み）
 - 対象：nikukai.html、sitemap.xml。
 - 点検：画面本文・meta description・FAQPageで、毎月29日、コース10,500円（ドリンク別）、2日前までの予約が一致。構造化データはBreadcrumbListとFAQPageのみ。
