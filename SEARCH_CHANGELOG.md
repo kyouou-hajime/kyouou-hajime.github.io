@@ -14,8 +14,8 @@
 - 理由：店主の2026-10-12の意向。Googleはページごとの記述的なタイトルとページ内容を検索表示に利用し、ローカル検索では詳細で正確なビジネス情報が関連性に影響する。順位や表示文面は保証しない。
 - 根拠：https://developers.google.com/search/docs/appearance/title-link 、https://developers.google.com/search/docs/appearance/snippet 、https://support.google.com/business/answer/7091
 - GitHub反映：専用ページ 3aae7505ec9841dfa9a9b2d244b43522d04857b9、トップ 7971a7c2d1c80c0e8fc59d74063b6d64ea1f4ec3、sitemap 035046796e8c790f3c225fc9ddffab44a007a45c。
-- 検証：GitHub再取得で各HTMLが保存内容と完全一致。両ページのJSON-LD構文解析成功、既存canonical・CSP・営業時間・電話予約・予約リンクを維持。公開URLの再取得は確認環境で不可。Google検索側の再取得と表示、GBPカテゴリは未確認。
-- 状態：GitHub反映済み／公開ページと検索側の反映は未確認。
+- 検証：GitHub再取得で各HTMLが保存内容と完全一致。両ページのJSON-LD構文解析成功、既存canonical・CSP・営業時間・電話予約・予約リンクを維持。2026-10-12に公開の専用ページで新title・H1・FAQ・予約導線・営業時間を確認し、公開トップで新しい文言と専用ページへのリンクを確認。Google検索側の再取得と表示、GBPカテゴリは未確認。
+- 状態：GitHub反映済み／公開2ページの表示確認済み。検索側の反映は未確認。
 
 ## 2026-10-11
 
