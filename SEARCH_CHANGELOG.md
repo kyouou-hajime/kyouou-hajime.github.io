@@ -12,8 +12,9 @@
 - 修正前：第5話と第7話の間に第6話なし。6テーマ18枚。修正後：店主から送られた第6話を番号どおり間に追加し、7テーマ21枚の目次とトップ・記事一覧の案内を一致させる。
 - 素材：店主が2026-10-14に送った第6話の1/3・2/3・3/3。画像3枚をWebP化し1122×1402の寸法を維持。
 - 根拠：日本酒造組合中央会「日本酒の分類」（https://japansake.or.jp/sake/about-sake/classification-of-sake/）、白鶴酒造「白鶴 生貯蔵酒」（https://www.hakutsuru.co.jp/namachozo/）、月桂冠「大吟醸 生詰」（https://www.gekkeikan.co.jp/products/type01/daiginjo_namazume/）。画像内の蔵名は各公式ページと照合。出典は閲覧ページに表示。
-- 検証：GitHub反映後にPages公開URLで章の順番と画像3枚を確認。検索側の再取得と実機スマホは未確認。
-- 状態：GitHub反映後の公開確認待ち。
+- GitHubコミット：b6c6e284a6dfea4697d9b5808c5b69b6e733c5d2。
+- 検証：Pagesデプロイ成功。公開manga.htmlで第5・6・7話の順番、出典リンクを確認。第6話の3画像はいずれも自然寸法1122×1402で読込完了。検索側の再取得と実機スマホは未確認。
+- 状態：GitHub反映済み／漫画ページの公開反映確認済み。
 
 ### 日本酒漫画 第7話「三段仕込み」3枚を追加（公開確認待ち）
 - 対象：manga.html、index.html、blog.html、images/manga-sandan-{1,2,3}.webp。
