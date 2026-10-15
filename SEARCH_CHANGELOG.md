@@ -1,3 +1,12 @@
+### 2026-10-16 日本酒ラベル講義・第9話「純米酒」を公開
+- 対象：manga.html、index.html、blog.html、sitemap.xml、images/manga-junmai-{1,2,3}.webp。
+- 差分：第1〜8話を維持し、第9話「純米酒」を番号順に追加。トップとブログの漫画案内にテーマを追記し、変更した3ページのsitemap最終更新日を2026-10-16へ更新。CSPと既存のスマートフォン向けレイアウトは変更なし。
+- 素材：既存のふっくる・クロ・はじめ先生の設定と前話完成画像を参照して、縦1122×1402pxの新規PNGを3枚生成。元PNGは manga_ep9/manga-junmai-{1,2,3}.png と生成成果物に保持し、公開用にWebP（同寸法）へ変換。蔵元・国税庁のロゴや紋章は使用しない。
+- 内容点検：①は米・米こうじ・水／醸造アルコール不使用、②は原材料表示から水を省くこと、純米酒には精米歩合の一律上限がなく純米吟醸は別要件であること、③は3点を要約。誤解を招く「水に×」の初稿を修正し、醸造アルコールの瓶に×を置いた完成版のみ公開。緑スカーフのふっくるに混入した頬の傷も修正。味・優劣を一律には断定しない。
+- 公式出典・確認日（2026-10-16、日本時間）：月桂冠「吟醸、純米、本醸造とは、どのような酒ですか？」 https://www.gekkeikan.co.jp/enjoy/sake/type/type01.html 、月桂冠「純米」商品情報 https://www.gekkeikan.co.jp/products/type02/junmai/ （当日の商品情報では精米歩合84％）、白鶴酒造「米だけのまる 純米酒」商品情報 https://www.hakutsuru.co.jp/product/sake/maru/06434.html （当日の商品情報では精米歩合78％）、国税庁「清酒の製法品質表示基準（概要）」 https://www.nta.go.jp/about/organization/sapporo/release/r4/kanpyokai/02.htm 、国税庁「酒類の表示の基準における重要基準を定める件」の概要 https://www.nta.go.jp/taxes/sake/hyoji/kijun/gaiyo/04.htm 。商品ごとの数字は一般基準ではなく実例。
+- GitHub反映：5922b0fba9cc1e79879a56290b3e939efb7ab3cb（漫画・WebP・導線・サイトマップ）。
+- 公開検証：GitHub Pages build 38822295730 成功。公開 manga.html#junmai に第9話の見出し・リンク・公式出典を確認し、画像3枚すべて naturalWidth=1122 で読込確認。検索エンジン側の再取得・順位・流入は未確認。外部SNSへの投稿なし。
+
 ### 2026-10-16 FAQの検索表示と店の業態案内を修正
 - 対象：faq.html、sitemap.xml。修正前：FAQのtitle・説明文・FAQPage name/description・冒頭に「日本酒レストラン」とあり、店主が望む和食小料理と幅広い酒類の案内に偏りがあった。
 - 修正後：title「よくあるご質問｜京都・丸太町の小料理屋 饗応 元」。description「京都・丸太町の小料理屋『饗応 元』のよくあるご質問。営業時間、アラカルト・コースの予約方法、料理と日本酒・ウイスキーなどのお酒についてご案内します。」（HTMLは鉤括弧「」）。OG/Twitter description、FAQPageのname/description、冒頭も同じ方針へ調整。既存FAQ11問、予約条件、外部予約リンク、CSPは維持。sitemapのFAQ lastmodを2026-10-16へ更新。
