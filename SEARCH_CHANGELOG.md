@@ -3,7 +3,7 @@
 - 内容：1枚目は原料と醸造アルコールを使うこと、2枚目は純米酒との比較と精米歩合70％以下・添加量条件、3枚目は原料・精米歩合・添加量のまとめ。白鶴酒造「特撰 白鶴 飛翔」は個別製品の表示例として確認し、一般的な表示要件と区別。味の一律な断定なし。3枚の日本語、3人の目・衣装・傷、共通のヘッダー・横長コマ・下部囲み・右下店名を目視確認。画像内に蔵ロゴなし。
 - 出典（2026-10-17確認）：月桂冠「吟醸、純米、本醸造とは、どのような酒ですか？」 https://www.gekkeikan.co.jp/enjoy/sake/type/type01.html ／白鶴酒造「日本酒用語集」 https://www.hakutsuru.co.jp/enjoy/detail/20210712215330.html ／白鶴酒造「特撰 白鶴 飛翔」 https://www.hakutsuru.co.jp/product/sake/josen/00014.html ／国税庁「酒類の表示の基準における重要基準を定める件」の概要 https://www.nta.go.jp/taxes/sake/hyoji/kijun/gaiyo/04.htm 。
 - 差分：images/manga-honjozo-{1,2,3}.webp を追加。manga.htmlのテーマ一覧・メタ情報・第10話3枚とalt・本文出典を追加。トップとブログの既存漫画導線はそのまま利用。CSPは既存の自己ホスト画像設定に適合。SNS投稿なし。
-- コミット・公開URLの画像読込・検索再取得は反映後に追記。
+- GitHub掲載コミット：06c19c401b5675c537c1cec1a22e0da298fb7d48。GitHub Pagesの公開ワークフロー成功。公開URL https://kyouou-hajime.github.io/manga.html#honjozo で第10話の一覧と出典リンクを確認し、images/manga-honjozo-{1,2,3}.webp の3枚とも1122×1402で読み込みを確認。検索エンジン再取得は未確認。
 
 ### 2026-10-17 Yahoo!マップの昼予算表示と休止中ランチの不一致（原稿完成・外部未変更）
 - 対象：https://map.yahoo.co.jp/v3/place/kTT77rMGLCs 。2026-10-17（日本時間）公開ページを再取得。
