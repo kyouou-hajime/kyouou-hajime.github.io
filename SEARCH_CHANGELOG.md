@@ -3,7 +3,7 @@
 - 検品：1枚目の初稿に未承認の人物と湯気に見える低温発酵表現が出たため再生成。2枚目の初稿に味の傾向の余分な記述が出たため、原材料と表示条件だけに修正。修正版3枚の見出し・横長コマ・右下店名、キャラの眼鏡・スカーフ・傷、日本語、精米歩合60％以下・吟醸造り・純米吟醸酒との差を目視確認。味の一律な断定なし。3枚目の出典は投稿文に委ね、蔵・機関ロゴを使用せず。
 - 出典（2026-10-18確認）：月桂冠「吟醸、純米、本醸造とは、どのような酒ですか？」 https://www.gekkeikan.co.jp/enjoy/sake/type/type01.html ／白鶴酒造「日本酒用語集」 https://www.hakutsuru.co.jp/enjoy/detail/20210712215330.html ／白鶴酒造「特撰 白鶴 純米吟醸 山田錦」 https://www.hakutsuru.co.jp/product/sake/yamadanishiki/03898.html ／国税庁「酒類の表示の基準における重要基準を定める件」の概要 https://www.nta.go.jp/taxes/sake/hyoji/kijun/gaiyo/04.htm 。
 - 差分：images/manga-ginjo-{1,2,3}.webp を追加し、manga.html の一覧・第11話3枚・alt・出典・メタ情報を更新。トップとブログの既存漫画導線を確認し変更なし。CSPの自己ホスト画像設定に適合。SNS投稿なし。
-- コミット・公開画像の読込・検索エンジン再取得は反映後に追記。
+- GitHub掲載コミット：516f5ea40cc474f96a071a2aa8ef157de47cad73。GitHub Pagesの公開ワークフロー成功。公開 https://kyouou-hajime.github.io/manga.html#ginjo で第11話の3枚・出典を確認し、images/manga-ginjo-{1,2,3}.webp はすべて1122×1402で読込成功。検索エンジン再取得は未確認。
 
 ### 2026-10-17 第10話「本醸造酒」を追加
 - 素材：Library保存のキャラクター原本3枚をページごとに直接参照。第8話のlayout_master_1〜3.webpは枠組みのみ参照。1122×1402の生成PNGを維持し、公開用WebPを作成。新キャラなし。
