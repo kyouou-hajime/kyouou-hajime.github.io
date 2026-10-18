@@ -3,7 +3,7 @@
 - 検品：3枚目の初稿に「純米」と醸造アルコールの矛盾があったため「純米」札を除き、ふっくるに混じった原本にない黒い飾りを各ページで修正。3枚の見出し・横長コマ・右下店名、眼鏡・スカーフ・傷、主要な日本語、精米歩合50％以下・吟醸造り・原材料の対比を目視確認。味や優劣を数字のみで断定せず、公式ロゴなし。
 - 出典（2026-10-19確認）：月桂冠「吟醸、純米、本醸造とは、どのような酒ですか？」 https://www.gekkeikan.co.jp/enjoy/sake/type/type01.html ／月桂冠「大吟醸」 https://www.gekkeikan.co.jp/products/type01/daiginjo_pack/ ／白鶴酒造「白鶴 大吟醸」 https://www.hakutsuru.co.jp/product/sake/daiginjo/06298.html ／白鶴酒造「白鶴 純米大吟醸」 https://www.hakutsuru.co.jp/product/sake/daiginjo/06552.html ／国税庁「酒類の表示の基準における重要基準を定める件」の概要 https://www.nta.go.jp/taxes/sake/hyoji/kijun/gaiyo/04.htm 。
 - 差分：images/manga-daiginjo-{1,2,3}.webp を追加。manga.htmlの一覧・第12話3枚・alt・出典・メタ情報を更新。トップとブログの既存漫画導線を確認し変更なし。CSPの自己ホスト画像設定に適合。SNS投稿なし。
-- GitHubコミット・公開画像の読込・検索エンジン再取得は反映後に追記。
+- GitHub掲載コミット：e00c6777c9455d3c64688715c285da02f545a4e6。GitHub Pagesの公開ワークフロー成功。公開 https://kyouou-hajime.github.io/manga.html#daiginjo に第12話・出典・3枚を確認。images/manga-daiginjo-{1,2,3}.webp は3枚とも1122×1402で読み込み成功。検索エンジン再取得は未確認。
 
 ### 2026-10-19 お知らせページの旧業態表現を修正（GitHub反映済み・公開確認待ち）
 - 対象：news.html、sitemap.xml。修正前：検索タイトル、CollectionPageのname、フッターが「日本酒レストラン」。現行トップは「京都・丸太町の小料理屋・居酒屋」を案内し、酒類は日本酒以外も扱う。
