@@ -1,3 +1,11 @@
+### 2026-10-19 お知らせページの旧業態表現を修正（GitHub反映済み・公開確認待ち）
+- 対象：news.html、sitemap.xml。修正前：検索タイトル、CollectionPageのname、フッターが「日本酒レストラン」。現行トップは「京都・丸太町の小料理屋・居酒屋」を案内し、酒類は日本酒以外も扱う。
+- 修正後：検索タイトルとCollectionPageのnameを「お知らせ｜京都・丸太町の小料理屋 饗応 元」に統一。フッターは「京都・丸太町の小料理屋。」に変更。告知記事、料理・価格・営業時間・予約リンク・CSP・他のメタ情報は変更なし。sitemap.xmlのお知らせページlastmodを2026-10-19に更新。
+- 理由：ページ名と店舗説明を現在の公式サイトの業態表現へ揃える。Google Search Centralはページを的確に表す簡潔なtitleを推奨：https://developers.google.com/search/docs/appearance/title-link 。
+- GitHubコミット：news.html 4cb5fee207a09afe512fa41f824314425305157d、sitemap.xml 44a9873a43e1739f81814435384049821379df07。
+- 検証：GitHub保存ファイルを再取得し、新title、旧表現0件、BreadcrumbListとCollectionPageのJSON構文、CSP維持、sitemapのlastmodを確認。公開URL https://kyouou-hajime.github.io/news.html の直接取得は確認環境で失敗したため、公開反映と検索側再取得は未確認。予約増・順位変化は未計測。
+- 未解決：公開ページ・検索側の反映確認。確認待ち質問Q-001は従来どおり保留。次回は公開URL再取得を優先し、同じ箇所を反復変更しない。
+
 ### 2026-10-18 楽天ぐるなび「席のみ」予約期限と電話予約の導線を区別（原稿完成・外部未反映）
 - 対象：https://r.gnavi.co.jp/plan/2kjg5bje0000/plan-reserve/plan/plan_list/:c-1
 - 現行表示（2026-10-18閲覧）：「コース指定なしの席のみのご予約」はネット予約期限が「1日前の12時まで」。電話番号075-600-0511は表示されるが、当日の電話によるアラカルト予約の案内は当該予約欄で確認できない。
