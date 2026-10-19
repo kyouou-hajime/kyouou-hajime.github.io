@@ -1,3 +1,11 @@
+### 2026-10-20 第13話「特別純米酒」を追加
+- 素材：Libraryのキャラクター原本3枚を各ページの生成に直接参照し、layout_master_1〜3.webpは固定フレームだけの見本に使用。新キャラなし。生成PNG3枚を保持し、余白を加えて1122×1402のWebP3枚を制作。
+- 検品：3枚目初稿の左端に余分な縦書き店名・ローマ字・赤印が出たため除去。完成版3枚の共通ヘッダー、深緑丸章、黄色題帯、横長コマ、下部要点、右下店名・ページ番号を目視確認。ふっくるの緑葉スカーフと傷なし、クロの黒い「酒」スカーフと頬の傷、はじめ先生の丸眼鏡・黒和服・緑の「元」前掛け、主要な日本語と余白を確認。味・優劣は断定していない。
+- 内容：特別純米酒は米・米こうじ・水が原料。国税庁の表示基準の「精米歩合60％以下又は特別な製造方法（要説明表示）」を左右の比較で表現。浦霞「生一本」60％、白鶴「山田錦」70％は個別製品の事実として示し、後者の具体的な特別製法は公式商品ページだけから断定しない。
+- 出典（2026-10-20確認）：国税庁「清酒の製法品質表示基準」の概要 https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm ／株式会社佐浦・浦霞「特別純米酒 生一本 浦霞」 https://www.urakasumi.com/items/kiippon/ ／白鶴酒造「特撰 白鶴 特別純米酒 山田錦」 https://www.hakutsuru.co.jp/product/sake/yamadanishiki/03738.html 。
+- 差分：images/manga-tokubetsu-junmai-{1,2,3}.webpを追加、manga.htmlの第13話・一覧・alt・出典・メタ情報、blog.htmlの既存漫画導線文、sitemap.xmlの漫画lastmodを更新。index.htmlの漫画導線は確認済みで変更なし。既存CSPで自己ホスト画像を許可。SNS投稿なし。
+- GitHubコミット・公開URLの読み込み検証・検索エンジン再取得は、この保存時点では未確認。後続確認で追記する。
+
 ### 2026-10-20 朝｜前日更新2ページの公開反映を確認
 - 対象：access.html、news.html、sitemap.xml。2026-10-20 08:02 JSTに公開URLを直接取得し、両ページの新title、access.htmlの営業時間・予約説明、news.htmlの「小料理屋」表現、sitemapの両ページlastmod=2026-10-19を確認。news.htmlの旧「日本酒レストラン」は取得本文に見当たらず。
 - 状態：GitHub保存済み／公開反映確認済み。検索エンジン側の再取得・表示、集客効果は未確認。前日の「公開確認待ち」は当時の状態であり、本項で後続確認を記録する。公開URL：https://kyouou-hajime.github.io/access.html 、https://kyouou-hajime.github.io/news.html 、https://kyouou-hajime.github.io/sitemap.xml 。
