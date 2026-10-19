@@ -4,7 +4,7 @@
 - 内容：特別純米酒は米・米こうじ・水が原料。国税庁の表示基準の「精米歩合60％以下又は特別な製造方法（要説明表示）」を左右の比較で表現。浦霞「生一本」60％、白鶴「山田錦」70％は個別製品の事実として示し、後者の具体的な特別製法は公式商品ページだけから断定しない。
 - 出典（2026-10-20確認）：国税庁「清酒の製法品質表示基準」の概要 https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm ／株式会社佐浦・浦霞「特別純米酒 生一本 浦霞」 https://www.urakasumi.com/items/kiippon/ ／白鶴酒造「特撰 白鶴 特別純米酒 山田錦」 https://www.hakutsuru.co.jp/product/sake/yamadanishiki/03738.html 。
 - 差分：images/manga-tokubetsu-junmai-{1,2,3}.webpを追加、manga.htmlの第13話・一覧・alt・出典・メタ情報、blog.htmlの既存漫画導線文、sitemap.xmlの漫画lastmodを更新。index.htmlの漫画導線は確認済みで変更なし。既存CSPで自己ホスト画像を許可。SNS投稿なし。
-- GitHubコミット・公開URLの読み込み検証・検索エンジン再取得は、この保存時点では未確認。後続確認で追記する。
+- GitHub掲載コミット：13aa4328a74d35a185d59741a8711c5b754ae1f0。Pagesの公開ワークフロー39339710072は成功。公開 https://kyouou-hajime.github.io/manga.html#tokubetsu-junmai で第13話の見出し・出典リンクを確認し、images/manga-tokubetsu-junmai-{1,2,3}.webp の3枚を個別に開いて全て1122×1402で読み込み確認。検索エンジン再取得は未確認。
 
 ### 2026-10-20 朝｜前日更新2ページの公開反映を確認
 - 対象：access.html、news.html、sitemap.xml。2026-10-20 08:02 JSTに公開URLを直接取得し、両ページの新title、access.htmlの営業時間・予約説明、news.htmlの「小料理屋」表現、sitemapの両ページlastmod=2026-10-19を確認。news.htmlの旧「日本酒レストラン」は取得本文に見当たらず。
