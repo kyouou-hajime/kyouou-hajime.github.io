@@ -4,7 +4,7 @@
 - 内容：醸造アルコールはでん粉質物・含糖質物の発酵・蒸留で造る。原材料名の表示と完成酒のアルコール分を区別。特定名称酒の95度換算・白米重量10％以下は添加量の基準。原料例と加える時期は蔵元説明として明示。味・優劣は一律に断定しない。
 - 出典（2026-10-22確認）：国税庁「酒類の表示の基準における重要基準を定める件」の概要 https://www.nta.go.jp/taxes/sake/hyoji/kijun/gaiyo/04.htm ／菊正宗酒造「日本酒なんでもFAQ｜原料」 https://www.kikumasamune.co.jp/mondou/faq2.html ／朝日酒造 KUBOTAYA「『醸造アルコール』とは？日本酒に醸造アルコールが必要な理由」 https://magazine.asahi-shuzo.co.jp/know/315 。
 - 差分：images/manga-jozo-alcohol-{1,2,3}.webp を追加。manga.html に第15話、テーマ一覧、alt、出典を追加。index.html・blog.html の漫画導線文と sitemap.xml の manga.html lastmod を更新。既存CSPを維持。SNS投稿なし。
-- GitHub反映・公開確認・検索再取得：検証後に追記。
+- GitHub掲載コミット：f2229ee515cb0c189e1473c8bb150845d746958f。GitHub Pagesの公開ワークフロー39692333235は成功。公開 https://kyouou-hajime.github.io/manga.html#jozo-alcohol で第15話見出し・蔵元出典2件を確認。images/manga-jozo-alcohol-{1,2,3}.webp は公開URLでそれぞれHTTP 200・image/webp、サイズ247412/280266/246578バイトを確認。検索エンジンの再取得は未確認。
 
 ### 2026-10-22 朝｜時代祭の来訪者向け予約案内を完成
 - 今日の1件：Googleビジネスプロフィール用の夕食予約案内。完成原稿は GROWTH_OPERATIONS.md の「2026-10-22」に保存。20:30〜22:30の来店希望→当日の営業・席の電話確認→アラカルト予約の順で案内。未確認の当日営業・空席・料理・在庫を断定せず、通常18時、予約なし最終23時、23時までの電話予約でアラカルト最長翌02時、コース2日前を保持。
