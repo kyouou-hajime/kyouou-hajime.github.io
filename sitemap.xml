@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kyouou-hajime.github.io/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://kyouou-hajime.github.io/marutamachi-sake.html</loc>
@@ -55,4 +55,6 @@
   <url><loc>https://kyouou-hajime.github.io/manga.html</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://kyouou-hajime.github.io/today-2026-10-12.html</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://kyouou-hajime.github.io/today-2026-10-09.html</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://kyouou-hajime.github.io/kinenbi.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://kyouou-hajime.github.io/kinenbi-2026-10-22.html</loc><lastmod>2026-10-22</lastmod></url>
 </urlset>
