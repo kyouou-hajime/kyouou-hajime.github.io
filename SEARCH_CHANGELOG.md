@@ -1,3 +1,12 @@
+### 2026-10-22 夜｜過去の「今日はなんの日」を追加7記事回収・公開
+- 店主の「もっと取れた」という指摘を受けて探索を拡張。2026-08-25〜10-21の生成画像290件と、それ以前71件の保存メタデータを照合し、候補画像11点を実物で確認した。本文は過去会話を期間別・日付別で検索。回収原文・要点と新たな再編集を混同しない。
+- 追加公開：7/4梨の日、10/10おもちの日、10/12鯛の日、10/13さつまいもの日、10/14美味しいすっぽんの日、10/15きのこの日、10/16世界食料デー。kinenbi-2026-MM-DD.html と images/kinenbi-2026-MM-DD.webp を追加。画像は保存済み原稿を同じ日付で再掲し、新規画像を過去作品として偽装していない。全記事の掲載日・datePublished/dateModifiedは実際の2026-10-22。本文の全文が戻らないものは「再編集」と記事内で明記した。
+- 既存の10/17神嘗祭、10/22時代祭と合わせて一覧9記事。kinenbi.html は各記事への画像付きカードを日付降順に整理。sitemap.xmlへ7URLを追加。トップの最新10/22記事は維持。記事ごとに固有title、要約、canonical、OGP、BlogPosting、alt、出典、料理一覧・電話予約導線を設定。自店主催のEventとは扱わない。提供・価格・在庫・営業を創作しない。
+- 出典（2026-10-22確認）：全国餅工業協同組合 https://omochi100.jp/mochinohi/ ／三重県漁業協同組合連合会 https://www.miegyoren.or.jp/about/outline/ ／川越市「川越の食材」 https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/017/185/kawagoenosyokuzai.pdf ／日本特用林産振興会 https://nittokusin.jp/kinoko/kinoko_no_hi/ ／FAO https://www.fao.org/japan/highlights/world-food-day/jp ／JA鳥取中央 https://www.ja-tottorichuou.or.jp/news/7053/ 。すっぽんは雑学ネタ帳 https://zatsuneta.com/archives/110149.html と創作品モールあるる https://alulu.com/today/20241014/ を照合。各記事に補助出典も掲載。
+- GitHub掲載コミット：10月6記事 6b6d017a58e1fc7fddf5544caf10e9b8a771bf5f、梨の記事 c5a726fdee543cbd2763f605ffec66d5afbf2c7d。Pages実行39765382127・39766028685は成功。
+- 検証：7記事の公開HTMLとGitHubへ投入した内容の一致、7画像のHTTP200と正常デコード・寸法、一覧9件とサイトマップの公開内容一致を確認。10月画像は1122×1402、梨は原稿の1024×1536を保持。JSON-LDのJSON構文と実際の掲載日、画像URL、XML構文を確認。検索エンジンの再取得・Googleマップ順位・集客効果は未確認。Google/Instagram外部投稿なし。
+- 回収と保留は KINENBI_RECOVERY.md に保存。1/12の絵なし、1/27の元題材未回収、画像内2/2の節分と7/8のタコは日付・元本文の整合未確認のため掲載しない。9月の採用履歴だけを原文復元済みと扱わない。次回は本記録を先に読み、掲載済みの7件を再提案しない。
+
 ### 2026-10-22 午後｜「今日はなんの日」日記を新設し、神嘗祭を遡及掲載
 - 対象：index.html の「今日はなんの日」導線、kinenbi.html、kinenbi-2026-10-22.html、kinenbi-2026-10-17.html、images/kinenbi-2026-10-{22,17}.webp、sitemap.xml。既存の実物写真を使う「本日の饗応 元」と別の季節日記。
 - 新設前→後：日付別の記念日記事と一覧がなかった状態から、10月22日の時代祭記事とイラスト、10月17日の神嘗祭の過去分記事と既存画像を掲載。トップは最新10月22日へ導線。神嘗祭は10月17日に作った投稿本文・画像を参照したが、サイトへの掲載日は10月22日と明記。BlogPosting の datePublished/dateModified も実際の掲載日 2026-10-22 とし、過去公開を偽装しない。元画像・過去本文が確認できない日を一括補完しない。
