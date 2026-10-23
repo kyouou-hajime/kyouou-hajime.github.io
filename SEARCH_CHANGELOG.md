@@ -4,7 +4,7 @@
 - 差分：kinenbi-2026-10-23.html、images/kinenbi-2026-10-23.webpを追加。kinenbi.htmlの先頭カード・OGP、index.htmlの最新日記導線、sitemap.xmlを10月23日へ更新。BlogPosting、canonical、OGP、画像alt、出典を設定。
 - 画像：生成り和紙に霜をまとった一枚の紅葉を描いた生成水彩。画像内文字は「今日はなんの日」「10月23日」のみ。1122×1402 WebP。実景・料理・公式画像ではない旨を記事で明示。
 - 出典（2026-10-23確認）：国立天文台 https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html および https://eco.mtk.nao.ac.jp/koyomi/faq/24sekki.html 。
-- 状態：GitHub一括反映後、Pages公開URLを確認予定。Instagram外部投稿なし。検索エンジン再取得・順位・来店効果は未確認。
+- 状態：コミット e9703271ec03aa6a216148a3842c82ab3b6539af でGitHub一括反映。Pages実行 39878375936 は成功。公開記事、一覧先頭、トップ最新導線を確認。画像公開URLも表示可能。Instagram外部投稿なし。検索エンジン再取得・順位・来店効果は未確認。
 
 ### 2026-10-23 朝｜10月24日イタリアン会をトップ直下へ案内
 - 対象：index.html、css/home.css、sitemap.xml。10月24日（土）の開催は既存のお知らせ（news.html#italian-2026-10-24）を正本として確認。
