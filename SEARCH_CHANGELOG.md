@@ -1,3 +1,12 @@
+### 2026-10-24 夜｜毎日の1件を照合・Retty公式URLの訂正文を追加
+- 今日の1件：9:30の季節日記「京都府庁旧本館『観芸祭』開幕」を当日のGitHub変更履歴・本記録・公開表示で照合。掲載コミット8655edac677113f94126d75139958768faf31e16（日本時間9:30）、公開確認記録a8968af2cd34b14c3803cec99527a9de6c059d9a。Pages実行40045278164は同掲載コミットを対象にcompleted/success。漫画は別タスクとして今回の1件に数えない。
+- 公開検証（2026-10-24 20時台）： https://kyouou-hajime.github.io/ を再読込して10/24日記への2リンク、電話導線、10/24イタリアン会案内を確認。 https://kyouou-hajime.github.io/kinenbi-2026-10-24.html で本文・掲載日・生成イラスト注記・出典・予約案内、canonical、BlogPostingの日付と画像URLを確認。画像は読込完了1122×1402。 https://kyouou-hajime.github.io/kinenbi.html の11記事すべての記事日付と画像ファイル日付が一致、先頭10/24を確認。構造化データはBlogPostingのまま、第三者行事を自店Eventにしていない。検索エンジン再取得・順位・予約／来店効果は未確認。
+- 新規に記録した掲載差分：Retty https://retty.me/area/PRE26/ARE660/SUB11001/100001545393/ の「お店のHP」は https://kyouou-hajime.com/ 。現行公式 https://kyouou-hajime.github.io/ と異なる。旧URLが今日変更されたとは扱わず、既存SEARCH_CHANGELOG.md・GROWTH_OPERATIONS.mdに未記録だったURL差を追加。旧URLの転送・閉鎖は未確認で、リンク切れと断定しない。
+- 完成物：GROWTH_OPERATIONS.mdの2026-10-24夜節に、表示URL・hrefを旧URL→現行公式URLへ変える依頼文、対象店舗、根拠、申請経路、状態を保存。原稿保存コミット9291b76ff3cc9b63797261dfc4b335a09e416818。Retty公式掲載方針 https://retty.me/announce/publication-policy/ の「店舗情報の変更」経路を確認。リンク先Googleフォームは設問・送信画面を取得できず未確認。外部入力・申請・編集・送信なし。既報の営業時間・定休日修正原稿は再作成しない。
+- その他の掲載照合（同日20時台）：食べログ https://tabelog.com/kyoto/A2601/A260202/26033510/ の公式リンクは現行GitHub Pagesと一致、営業時間補足は既報のまま。PayPay https://paypaygourmet.yahoo.co.jp/114666 は18:00～23:00最終入店・不定休、Yahoo!マップ https://map.yahoo.co.jp/v3/place/kTT77rMGLCs の公式リンクは現行URL。AutoReserve https://autoreserve.com/ja/restaurants/LyEuzYj1WRLWqz8gJ6eC の17:30開店等は既報。これらの取得範囲で新たな実質進捗は確定できず重複通知なし。楽天ぐるなび https://r.gnavi.co.jp/2kjg5bje0000/ は403で現行表示未確認、検索の古いスニペットで反映を断定しない。Googleビジネスプロフィールの管理画面・メニューURL設定は未確認。
+- 状態区分：日記HP＝GitHub保存・Pages成功・公開表示確認済み。Google＝朝の観芸祭夕食予約原稿完成のまま、外部未投稿。Instagram＝当日本文・生成画像完成、外部未投稿。Retty訂正文＝完成・GitHub保存、外部未申請。今夜のHP本文追加更新は不要。10/24イベントが終了したとの店主情報はないため、20時台に案内を勝手に終了しない。
+- 未解決・次回：Q-001/Q-002の未回答2件を維持し質問の追加なし。10/25に10/24イベントの告知期限を点検して案内を整理する。RettyはURL訂正を含む既存完成原稿の反映進捗のみ確認。雨の日判定の再確認・追加通知は行わない。
+
 ### 2026-10-24 9:30｜観芸祭日記の公開反映を確認
 - 掲載コミット：8655edac677113f94126d75139958768faf31e16。Pages実行40045278164はcompleted/success。
 - 公開 https://kyouou-hajime.github.io/kinenbi-2026-10-24.html で固有タイトル、掲載日、本文、出典、電話予約導線、canonicalを確認。記事内の画像 images/kinenbi-2026-10-24.webp は1122×1402で読込完了。
