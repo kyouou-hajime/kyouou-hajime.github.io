@@ -1,3 +1,6 @@
+### 2026-10-25 朝｜第18話の公開確認
+- 掲載コミット 17aede841e03a9102d02a59b92b4a54c6eef9678。GitHub Pages実行40141635726はcompleted/success。公開漫画ページ https://kyouou-hajime.github.io/manga.html#yamahai はHTTP200。画像3枚すべてHTTP200・image/webp（238212／268642／229648 bytes）。検索エンジン再取得は未確認。
+
 ### 2026-10-25 朝｜第18話「山廃とは？」を追加
 - 対象：manga.html、index.html、blog.html、images/manga-yamahai-{1,2,3}.webp。3枚を番号順に追加、導入・alt・寸法・出典確認日、一覧リンク、トップの漫画画像、ブログ案内を更新。掲載テーマ17件。第16話の未掲載分は架空補完せず維持。
 - 出典（2026-10-25閲覧）：菊姫「柳社長コラム 山廃仕込みと味の特長について」https://www.kikuhime.co.jp/info/column/柳社長コラム-「山廃仕込みと味の特長について」/ 、福光屋「よくある質問｜山廃とはなんですか？」https://www.fukumitsuya.com/products/faq/ 、酒類総合研究所「清酒｜生酛（山廃）系酒母」https://www.nrib.go.jp/sake/sakefaq02.html 。山卸省略・乳酸菌による乳酸を照合。菊姫の約1か月の工程は個別説明とし一般化しない。味の断定は採用しない。
