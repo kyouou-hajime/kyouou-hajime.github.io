@@ -1,3 +1,6 @@
+### 2026-10-26 朝｜第19話の公開確認
+- 掲載コミット 623bf289f66503d0386af91b05e14752c4e1ee40。GitHub Pages実行40243235006はcompleted/success。公開 https://kyouou-hajime.github.io/manga.html#sokujo に第19話セクションを確認。画像3枚すべてHTTP200・image/webp、1122×1402（241286／265674／267618 bytes）。GitHub反映と公開画像読込を確認済み、検索エンジン再取得は未確認。
+
 ### 2026-10-26 朝｜第19話「速醸酛とは？」を追加
 - 対象：manga.html、index.html、blog.html、images/manga-sokujo-{1,2,3}.webp。3枚を番号順に追加し、題名・導入・alt・寸法・出典確認日、一覧リンク、トップ画像、ブログ案内を更新。掲載テーマ18件。既存の未掲載話は架空補完しない。
 - 出典（2026-10-26閲覧）：朝日酒造 KUBOTAYA「日本酒のメジャーな製法『速醸酛』とは？」https://magazine.asahi-shuzo.co.jp/know/407 、菊姫「速醸酒母について前編」https://www.kikuhime.co.jp/info/build/「速醸酒母について前編」/ 、酒類総合研究所「清酒｜生酛（山廃）系酒母」https://www.nrib.go.jp/sake/sakefaq02.html 。仕込み初めの醸造用乳酸添加と酵母育成を照合。菊姫の投入順は自社工程、朝日酒造の15日程度は目安として区別。ラベルに記載がない場合を必ず速醸と断定する説明、普及率・味の一般断定は採用しない。
