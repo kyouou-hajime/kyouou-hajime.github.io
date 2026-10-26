@@ -1,3 +1,8 @@
+### 2026-10-26｜仕入れ記事の保存と公開確認
+- 掲載コミット：d5e43d1e593d966a1ddc66f5a8e4e893fca064ee。Pages実行40283360827はcompleted/success。
+- 公開 https://kyouou-hajime.github.io/today-2026-10-26.html で固有タイトル、本文、3魚種、掲載日、canonical、BlogPostingの日付、電話予約導線を確認。代表写真3枚はすべて読込完了・実寸を確認。トップから記事へのリンク3件、ブログ一覧の先頭カードとsitemapの新URLはGitHub保存を確認。
+- GitHub保存・Pages成功・公開記事の表示と画像読込は確認済み。検索エンジンの再取得、予約・来店効果は未確認。外部Instagram・Google投稿なし。
+
 ### 2026-10-26｜本日の仕入れ記事（写真・店主確定情報）
 - 対象：today-2026-10-26.html、blog.html、index.html、sitemap.xml、images/today-2026-10-26-{buri,managatsuo,katsuo}.jpeg。
 - 店主が本日「氷見の寒鰤／兵庫のマナカツオ／宮城の本鰹」と実物写真6枚を提供。代表写真としてIMG_0360.jpeg、IMG_0356.jpeg、IMG_0359.jpegの3枚を使用。元JPEGを改変せず掲載。
