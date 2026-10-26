@@ -1,3 +1,6 @@
+### 2026-10-27 朝｜第20話の公開確認
+- 掲載コミット f4d14213e127788709806028274866653e5bacda。GitHub Pages実行40418781109はcompleted/success。公開 https://kyouou-hajime.github.io/manga.html#nigori に第20話セクションを確認。画像3枚すべてHTTP200・image/webp、1122×1402（241950／252090／220498 bytes）。GitHub反映と公開画像読込を確認済み。検索エンジン再取得は未確認。
+
 ### 2026-10-27 朝｜第20話「にごり酒とは？」を追加
 - 対象：manga.html、index.html、blog.html、images/manga-nigori-{1,2,3}.webp。3枚を番号順に追加し、導入・alt・寸法・出典と確認日・テーマリンク、トップ画像、ブログ案内を更新。掲載19テーマ。既存欠番は架空補完せず維持。
 - 出典（2026-10-27閲覧）：菊水酒造「菊水 涼風うすにごり」https://www.kikusui-sake.com/home/jp/products/ryofu_usunigori/ 、菊姫「にごり酒」https://www.kikuhime.co.jp/products/にごり酒/ 、藤井酒造「オンラインストアQ&A｜無濾過とは」https://www.fujiishuzou.com/pages/online_qa 、酒類総合研究所「清酒｜にごり酒とは」https://www.nrib.go.jp/sake/sakefaq02.html 。一般論と菊水のうすにごり・菊姫の練り挽き荒濾・藤井酒造の無濾過表記を区別。にごりから甘辛・度数・火入れ・発泡性や優劣を断定しない。
