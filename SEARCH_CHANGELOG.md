@@ -1,3 +1,11 @@
+### 2026-10-26｜本日の仕入れ記事（写真・店主確定情報）
+- 対象：today-2026-10-26.html、blog.html、index.html、sitemap.xml、images/today-2026-10-26-{buri,managatsuo,katsuo}.jpeg。
+- 店主が本日「氷見の寒鰤／兵庫のマナカツオ／宮城の本鰹」と実物写真6枚を提供。代表写真としてIMG_0360.jpeg、IMG_0356.jpeg、IMG_0359.jpegの3枚を使用。元JPEGを改変せず掲載。
+- 前：10月26日の仕入れ記事と導線なし。後：日付別記事、ブログ先頭カード、トップの「本日の饗応 元」カード、sitemapのURLと変更日を追加。前回の10月12日記事は維持。
+- 記事は仕入れと産地だけを確定事実として記載。調理法、献立、価格、残数、当日営業は推測しない。記事内の小注で提供状況の確認を案内。通常の予約条件は維持。
+- title・description・h1・掲載日・canonical・OGP・BlogPosting・画像alt・電話予約導線を整備。既存CSPとjs/main.jsを維持。画像の対応は写真の見た目と店主の3魚種から確認し、未選定の3枚は未掲載。
+- コミット／Pages／公開URL／検索側再取得は後続確認欄で区別。Google等外部投稿なし。未解決Q-001/Q-002は継続。
+
 ### 2026-10-26 朝｜第19話の公開確認
 - 掲載コミット 623bf289f66503d0386af91b05e14752c4e1ee40。GitHub Pages実行40243235006はcompleted/success。公開 https://kyouou-hajime.github.io/manga.html#sokujo に第19話セクションを確認。画像3枚すべてHTTP200・image/webp、1122×1402（241286／265674／267618 bytes）。GitHub反映と公開画像読込を確認済み、検索エンジン再取得は未確認。
 
