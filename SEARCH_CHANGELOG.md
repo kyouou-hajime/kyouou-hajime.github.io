@@ -1,3 +1,9 @@
+### 2026-10-27｜仕入れ記事の保存と公開確認
+- 掲載コミット：6eaf90a4bf5dd1fda8dd0f31f6ce66a6cb67b9b0。GitHub Pages実行40478868995はcompleted/success。
+- 公開 https://kyouou-hajime.github.io/today-2026-10-27.html で固有タイトル、本文、下仁田ネギ・水蛸・愛宕の松、掲載日、canonical、BlogPostingの日付、電話予約導線を確認。画像3枚はすべて読込完了・実寸（1536×1152、1536×1152、1254×1254）を確認。
+- トップから記事へのリンク3件、ブログ一覧の先頭カード、ブログ構造化データ、sitemapの新URLを確認。
+- GitHub保存・Pages成功・公開記事の表示と画像読込は確認済み。検索エンジンの再取得、予約・来店効果は未確認。外部Instagram・Google投稿なし。
+
 ### 2026-10-27｜本日の仕入れ記事（写真・店主確定情報）
 - 対象：today-2026-10-27.html、blog.html、index.html、sitemap.xml、images/today-2026-10-27-{shimonita-negi,mizudako,atago-no-matsu}.jpeg。
 - 店主が本日「下仁田ネギ」「水蛸」「愛宕の松」と画像3枚を提供。元JPEGを改変せず掲載。
