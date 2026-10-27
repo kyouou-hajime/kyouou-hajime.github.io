@@ -1,3 +1,11 @@
+### 2026-10-27｜本日の仕入れ記事（写真・店主確定情報）
+- 対象：today-2026-10-27.html、blog.html、index.html、sitemap.xml、images/today-2026-10-27-{shimonita-negi,mizudako,atago-no-matsu}.jpeg。
+- 店主が本日「下仁田ネギ」「水蛸」「愛宕の松」と画像3枚を提供。元JPEGを改変せず掲載。
+- 前：10月27日の仕入れ記事と導線なし。後：日付別記事、ブログ先頭カード、トップの「本日の饗応 元」カード、sitemapのURLと変更日を追加。10月26日以前の記事は維持。
+- 記事は名称と当日の仕入れだけを確定事実として記載。調理法、価格、残数、提供状況、愛宕の松の精米歩合・日本酒度等は本文へ転記しない。通常の予約条件は維持。
+- title・description・h1・掲載日・canonical・OGP・BlogPosting・画像alt・電話予約導線を整備。既存CSPとjs/main.jsを維持。
+- コミット／Pages／公開URL／検索側再取得は後続確認欄で区別。Google等外部投稿なし。未解決Q-001/Q-002は継続。
+
 ### 2026-10-27 朝｜第20話の公開確認
 - 掲載コミット f4d14213e127788709806028274866653e5bacda。GitHub Pages実行40418781109はcompleted/success。公開 https://kyouou-hajime.github.io/manga.html#nigori に第20話セクションを確認。画像3枚すべてHTTP200・image/webp、1122×1402（241950／252090／220498 bytes）。GitHub反映と公開画像読込を確認済み。検索エンジン再取得は未確認。
 
