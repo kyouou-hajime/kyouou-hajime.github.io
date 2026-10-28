@@ -1,3 +1,8 @@
+### 2026-10-28 9:30｜おだしの日の季節日記
+- 10/28記事・生成イラストを新設、一覧とトップの最新導線・sitemapを更新。旧10/25記事と漫画第21話の導線を維持。
+- 根拠：制定者 太鼓亭 https://taikotei.co.jp/news/id-3488/ と日本食糧新聞 https://news.nissyoku.co.jp/today/594775 （10/28確認）。製法の考案は「とされる」と表記。
+- 画像は生成イラスト、掲載日・canonical・OGP・BlogPosting・出典・予約導線を整備。GitHub保存・Pages公開・検索再取得は別途確認。Instagram外部投稿なし。
+
 ### 2026-10-28 朝｜第21話の公開確認
 - 掲載コミット 458cd01a21fb7663583a2223cb124771b93ab0f1。GitHub Pages実行40600689589はcompleted/success。
 - 公開 https://kyouou-hajime.github.io/manga.html#jikagumi に第21話セクションを確認。画像3枚すべてHTTP200・image/webp、1122×1402（324028／348908／355182 bytes）。公開画像のバイト列が検品済みWebPと一致。
