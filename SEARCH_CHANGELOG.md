@@ -1,3 +1,8 @@
+### 2026-10-29 朝｜第22話の公開確認
+- 掲載コミット 0c9f85845da6e3f6c46674ece2a6d5112fab8a84。GitHub Pages実行40782314378はcompleted/success。
+- 公開 https://kyouou-hajime.github.io/manga.html#origarami に新セクションを確認。画像3枚はHTTP200・image/webp、1122×1402（332692／323912／346592 bytes）。公開ファイルのバイト列が検品済みWebPと一致。
+- GitHub反映・Pages成功・公開画像3枚の読み込みを確認済み。検索エンジン再取得は未確認。SNS外部投稿なし。
+
 ### 2026-10-29 朝｜第22話「おりがらみとは？」を追加
 - 差分：manga.htmlに新テーマ3枚を番号順に追加。題名・導入・alt・1122×1402寸法・出典リンク・テーマ一覧を整備。index.htmlの最新漫画画像と第22話への導線、blog.htmlの案内、sitemap.xmlの漫画lastmodを更新。掲載21テーマ。既存欠番の第16話は架空補完しない。
 - 出典（2026-10-29確認）：天山酒造「天山 純米吟醸 生 おりがらみ」https://tenzan.co.jp/product/tenzan-jyunmaiginjyo-nama-origarami/ 、新澤醸造店「◇季節限定商品◇伯楽星 純米吟醸 おりがらみ生酒」（2024-12-07）https://niizawa-brewery.co.jp/news/2728/ 、白鶴酒造「白鶴酒造資料館 フロアガイド｜滓引き火入れ」https://www.hakutsuru.co.jp/community/shiryo/floor/ 、酒類総合研究所「清酒｜生酒／にごり酒」https://www.nrib.go.jp/sake/sakefaq02.html 。異なる蔵の公式説明を照合。にごり酒との呼び分けは排他的分類にせず、甘辛・発泡性・生酒・味の優劣を外見で決めない。個別商品の保存期間・発泡感を一般化しない。
