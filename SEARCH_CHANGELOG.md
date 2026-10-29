@@ -1,3 +1,8 @@
+### 2026-10-30 朝｜第23話の公開確認
+- 掲載コミット 64e6ae8278bf7ccc7f84d474d2edf131a35594d9。GitHub Pages実行40967868258はcompleted/success。
+- 公開 https://kyouou-hajime.github.io/manga.html#nakadori に新セクションを確認。画像3枚はHTTP200・image/webp、1122×1402（318950／349658／352206 bytes）。公開ファイルのバイト列が検品済みWebPと一致。
+- GitHub反映・Pages成功・公開画像3枚の読み込みを確認済み。検索エンジン再取得は未確認。SNS外部投稿なし。
+
 ### 2026-10-30 朝｜第23話「中取り（なかどり）とは？」を追加
 - 差分：manga.htmlに新テーマ3枚を番号順に追加。題名・導入・alt・1122×1402寸法・出典・テーマ一覧、index.htmlの最新漫画と第23話への導線、blog.htmlの案内、sitemap.xmlの漫画lastmodを更新。掲載22テーマ。既存欠番の第16話は架空補完しない。
 - 出典（2026-10-30確認）：朝日酒造 KUBOTAYA「日本酒の用語を一挙に紹介！知識を深め、楽しみ方の幅を広げよう」https://magazine.asahi-shuzo.co.jp/know/197 、福光屋「酒造り用語集｜中汲み囲い」https://www.fukumitsuya.co.jp/about/glossary/ 、天吹酒造「日本酒の搾り」https://www.amabuki.co.jp/news/000487.php 。異なる3蔵を照合。一般的な採取順と福光屋の中汲み囲いの個別例を区別。区間の数値、三等分、タンク内位置、無加圧を一律条件にせず、味や優劣を名称で決めない。
