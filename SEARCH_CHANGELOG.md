@@ -1,3 +1,9 @@
+### 2026-10-29 夜｜公開状況の確認
+- 季節日記の掲載コミット bfd0bc6b3019d548a805b7427e3eba209fe6e95d のPages build and deploymentは completed/success。GitHub保存・デプロイ成功を確認。
+- 公開 https://kyouou-hajime.github.io/kinenbi-2026-10-29.html とトップはWeb取得エラーのため、実表示・スマホ表示は未確認。検索側再取得も未確認。次回確認する。
+- 当日の独立雨判定記録 rain_decision_2026-10-29.txt を確認。再判定なし。
+- 今回HP本文の修正なし。未了：酒類確定正本の直接照合、公開ページ・スマホ表示。
+
 ### 2026-10-29 9:30｜余香祭の季節日記
 - 10/29の記事・生成白菊イラストを新設、一覧・トップ・sitemapの導線を更新。第22話漫画と10/27仕入れ記録を維持。
 - 根拠：北野天満宮 https://kitanotenmangu.or.jp/event/ 年中行事と京都観光情報 https://kyoto-design.jp/index.php/event/61215 の2026年10月29日。神社が主催する祭典を紹介、店舗の参加・当日営業・料理の提供を推測しない。
