@@ -1,3 +1,8 @@
+### 2026-10-31 朝｜第24話の公開確認
+- 掲載コミット 96377f153df3a97df762beba7d4e9ef28b2e3158。GitHub Pages実行41139478012はcompleted/success。
+- 初回読込は反映前の404。Pages成功後に再確認し、公開 https://kyouou-hajime.github.io/manga.html#fukurozuri に新セクションを確認。画像3枚はHTTP200・image/webp、1122×1402（335788／348430／338286 bytes）。公開ファイルのバイト列が検品済みWebPと一致。
+- GitHub反映・Pages成功・公開画像3枚の読み込みを確認済み。検索エンジン再取得は未確認。SNS外部投稿なし。
+
 ### 2026-10-31 朝｜第24話「袋吊りとは？」を追加
 - 差分：manga.htmlに新テーマ3枚を番号順に追加。題名・導入・alt・1122×1402寸法・出典・テーマ一覧、index.htmlの最新漫画と第24話への導線、blog.htmlの案内、sitemap.xmlの漫画lastmodを更新。掲載23テーマ。第16話の既存欠番は架空補完しない。
 - 出典（2026-10-31確認）：御代桜醸造「袋吊りとは!?」（2022-02-17）https://miyozakura.co.jp/brewing/428.html 、天吹酒造「日本酒の搾り」https://www.amabuki.co.jp/news/000487.php 、朝日酒造 KUBOTAYA「日本酒の用語を一挙に紹介！知識を深め、楽しみ方の幅を広げよう」https://magazine.asahi-shuzo.co.jp/know/197 。異なる3蔵を照合。一般的な袋吊りの原理、槽搾りの例と、御代桜の手間・収量・雫酒という呼び方を区別。袋吊りから火入れの有無・味の優劣を決めない。設備・時間・収量を一律にしない。
