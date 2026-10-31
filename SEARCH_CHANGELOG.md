@@ -1,3 +1,8 @@
+### 2026-11-01 朝｜第25話の公開確認
+- 掲載コミット ec7a4e3b39d0e5361eaa2e223d20a64784af48bb。GitHub Pages実行41249418408はcompleted/success。
+- 公開 https://kyouou-hajime.github.io/manga.html#kijoshu に第25話セクションを確認。画像3枚ともHTTP200・image/webp、1122×1402（326988／340946／326188 bytes）。公開画像の全バイト列が検品済みWebPと一致。
+- GitHub反映・公開読込を確認済み。CSPとスマホ用の画像可変幅指定を維持。検索エンジンの再取得は未確認。SNS投稿なし。
+
 ### 2026-11-01 朝｜第25話「貴醸酒とは？」を追加
 - 差分：manga.htmlに新テーマ3枚を番号順に追加。題名・導入・alt・寸法・出典・テーマ一覧とメタ情報、index.htmlの最新漫画と第25話への導線、blog.htmlの案内、sitemap.xmlの漫画lastmodを更新。掲載24テーマ。第16話の既存欠番は架空補完しない。
 - 出典（2026-11-01確認）：出羽桜酒造「出羽桜 貴醸酒 SWeeeeeT」https://www.dewazakura.co.jp/item/cat08/sweet.html 、榎酒造「貴醸酒とは」https://hanahato.ocnk.net/page/3 、酒類総合研究所「日本酒ラベルの用語事典」https://www.nrib.go.jp/English/sake/pdf/sl_j.pdf 。異なる2蔵と研究所一次資料を照合。仕込み水の一部を清酒に代える一般論、発酵と糖の説明、留仕込みの配合と使う酒という個別例を区別。完成品の度数・味・色・優劣や熟成の有無を製法名のみで断定しない。
