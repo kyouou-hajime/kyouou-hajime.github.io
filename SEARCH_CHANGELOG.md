@@ -1,3 +1,9 @@
+### 2026-11-04 朝｜第28話 BY 公開検証
+- 初回追加コミット：18d7294da5efa4ec9ba19056f59100d669a6a50d。公開URL確認で1・2枚目の転送欠損を検知したため、完全なWebPを再転送し、ローカルのGit blobハッシュと一致確認。
+- 修正公開コミット：8cdeebf396848be1eb2427dbe7907ca2a4fd99e4。GitHub Pages run 41733771570 completed/success。
+- 公開 https://kyouou-hajime.github.io/manga.html#by はHTTP 200、第28話・by節を確認。images/manga-by-1.webp、manga-by-2.webp、manga-by-3.webp は各HTTP 200・image/webp・1122×1402、368868 / 359334 / 352130 bytes。公開データがローカル完成ファイルと3枚ともバイト一致。
+- GitHub反映、公開URLでの画像3枚確認を完了。検索エンジン再取得は未確認。SNS投稿なし。
+
 ### 2026-11-04 朝｜第28話「BY（酒造年度）とは？」を追加
 - 差分：manga.htmlに完成3枚、導入・alt・出典・確認日・一覧を追加し、掲載27テーマへ。トップ最新漫画、ブログ案内、漫画sitemap更新日を整合。第16話の既存欠番は補完せず、他担当の更新を保持。
 - 公式出典（2026-11-04閲覧）：比翼鶴酒造「第３回：酒蔵の一年」https://www.hiyokutsuru.co.jp/41101.html 、福光屋「酒づくりの言葉・酒蔵ごよみ――『甑立て』」https://www.fukumitsuya.co.jp/komekara/article/1537/ 、酒類総合研究所「日本酒ラベルの用語事典」https://www.nrib.go.jp/English/sake/pdf/sl_j.pdf 。異なる2蔵と一次資料を照合。酒造年度の期間と始まりの年、2025BY＝令和7BYの説明例、年度区切りと実際の仕込み開始の違い、「製造年月」は原則容器に詰めた時期と区別。史料の平成26BYを西暦2026BYと混同せず、味・優劣・飲用可否をBYだけで断定しない。
