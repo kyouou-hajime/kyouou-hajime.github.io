@@ -1,3 +1,7 @@
+### 2026-11-03 9:30｜日記の保存・公開状態
+- 掲載コミット f2b6374685fb34898ff96ab75efe2fb0714e9580。記事・一覧・トップ・sitemapは保存後GitHub全文一致を確認。画像blob be5f3c0c3288bb9e79f7fbde5de1b8f6e5292a43。
+- 初回の公開取得では https://kyouou-hajime.github.io/kinenbi-2026-11-03.html と画像が404、一覧・トップ・sitemapは反映前。GitHub保存済み・Pages反映待ちとして回答。スマホ実表示と検索再取得も未確認。20:15担当で反映を回収し、保存のみを公開確認済みにしない。
+
 ### 2026-11-03 9:30｜調味料の日の日記
 - 予定9:30、実開始9:26:33 JST。最新履歴・一覧・日付記事形式を読み、同日記事がないことを確認。
 - 出典を直接取得：日本野菜ソムリエ協会 https://www.vege-fru.com/choumiryo/championship/ 、日本地方創成協会 https://r-sousei.jp/choumiryo/ 、日本記念日協会監修JAF Mate https://jafmate.jp/car/car_anniversary_20251103.html 。正式名・毎年11/3・制定者・伝統調味料と和食を再考する趣旨を照合。2026年の協会発表 https://prtimes.jp/main/html/rd/p/000000184.000110263.html でも11/3記念を確認。選手権の実開催は10月であり本日開催・店の参加・受賞とは書かない。
