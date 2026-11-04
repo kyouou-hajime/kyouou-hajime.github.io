@@ -1,3 +1,8 @@
+### 2026-11-05 朝｜第29話 日本酒度 公開検証
+- 公開コミット 384f759c351f49be6d96c4e5b937ab8c8d0421f5。GitHub Pages run 41927625431 completed/success。
+- https://kyouou-hajime.github.io/manga.html#nihonshudo はHTTP200、第29話節を確認。images/manga-nihonshudo-1.webp / -2.webp / -3.webp は各HTTP200、image/webp、1122×1402。326966 / 343356 / 343284 bytes、3枚ともローカル完成WebPとバイト一致。送信前にも8ファイルのGit blobハッシュ一致確認。
+- GitHub反映と公開HTTP画像読込の確認を完了。実ブラウザ操作確認および検索エンジン再取得とは区別し、これらは未確認。SNS投稿なし。
+
 ### 2026-11-05 朝｜第29話「日本酒度とは？」追加
 - 差分：漫画第29話3枚と導入・alt・出典・確認日・一覧を追加。掲載28テーマ。トップ最新漫画、ブログ、漫画sitemap更新日を整合。第16話欠番は補完せず、他担当の店舗・日記更新を保持。
 - 出典（2026-11-05直接閲覧）：白鶴酒造「よくあるご質問（日本酒）」https://www.hakutsuru.co.jp/customer/faq/seishu/ 、月桂冠「日本酒度・酸度・アミノ酸度とは何を表す数値ですか？」https://www.gekkeikan.co.jp/enjoy/qa/sake/sake05.html 、酒類総合研究所「日本酒ラベルの用語事典」https://www.nrib.go.jp/English/sake/pdf/sl_j.pdf 。2蔵と一次資料で比重、測定15℃/基準水4℃、糖分とアルコール分の影響、同程度の度数で比較する点、甘辛は酸味等にも左右される点を照合。数値は架空例、製法の実験指示・在庫情報ではない。味・優劣を断定しない。
