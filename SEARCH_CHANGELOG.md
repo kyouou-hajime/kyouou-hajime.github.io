@@ -1,3 +1,8 @@
+### 2026-11-06 朝｜第30話 酸度 公開検証
+- 公開コミット cfc4523dbd54d3854bc6a11985e50fe87ec6644b。GitHub Pages run 42123006187 completed/success。
+- https://kyouou-hajime.github.io/manga.html#sando はHTTP200で第30話節あり。images/manga-sando-1.webp / -2.webp / -3.webp は全件HTTP200、image/webp、1122×1402。371906 / 370414 / 357946 bytes、3枚ともローカル完成WebPとバイト一致。送信前の8ファイルGit blobハッシュも一致。
+- GitHub反映と公開HTTP画像読込を確認。実ブラウザ操作・検索エンジン再取得は別で未確認。SNS投稿なし。
+
 ### 2026-11-06 朝｜第30話「酸度とは？」追加
 - 差分：漫画第30話3枚と題名・導入・alt・出典・確認日・一覧を追加。掲載29テーマ。トップ最新漫画、ブログ案内、漫画sitemap更新日を整合。他担当の店舗記事・営業・日記更新を保持。第16話欠番は補完しない。
 - 出典（2026-11-06直接閲覧）：白鶴酒造「よくあるご質問（日本酒）｜酸度」https://www.hakutsuru.co.jp/customer/faq/seishu/ 、月桂冠「日本酒度・酸度・アミノ酸度とは何を表す数値ですか？」https://www.gekkeikan.co.jp/enjoy/qa/sake/sake05.html 、酒類総合研究所「日本酒ラベルの用語事典」https://www.nrib.go.jp/English/sake/pdf/sl_j.pdf 、国税庁所定分析法「3 清酒｜3-5 総酸（遊離酸）」https://www.nta.go.jp/law/tsutatsu/kobetsu/sonota/070622/pdf/03.pdf 。2蔵と一次資料で有機酸・中和滴定・酸度と含有割合の違い・甘味とのバランスを照合。酸度を酸っぱさや品質の点数にせず、製法・商品例を一般化しない。瓶は架空例、取り扱い・在庫を示さない。
