@@ -1,3 +1,12 @@
+### 2026-11-06 9:30｜松葉ガニ漁の解禁・季節日記
+- 予定9:30 JST、実起動9:34:14 JST（遅延を区別）。SEARCH_CHANGELOG.md、GROWTH_OPERATIONS.md、前回未了、当日記事未作成（GitHub404）と公開一覧の20記事・既知採用履歴を照合。同日重複なし。
+- 題材は当日固有の漁解禁という季節の行事。11/7の立冬を先取りせず、月例・弱い語呂合わせを採用しない。京都府の漁期とオス/メス呼称、舞鶴市水産協会の漁期・資源管理、海の京都の冬の味覚紹介を直接取得。2026-10-28発信の事業者一次発表で2026-11-06解禁を照合。観光連盟検索一覧は詳細リンクとの不整合があり、2026年の唯一の根拠には使わない。記念日の制定者や名称の語源を創作しない。
+- 出典（9:35〜9:40 JST取得）：https://www.pref.kyoto.jp/kaiyo/zuwai6.html 京都府「ズワイガニ漁業（応用編）」 ／ https://www.pref.kyoto.jp/kaiyo/zuwai2.html 京都府「ズワイガニってどんなカニ？」 ／ https://maizuru-sakana.net/brandfish/maizurukani/ 舞鶴市水産協会「舞鶴かに」 ／ https://uminokyoto.jp/feature/detail.php?spid=14 海の京都観光圏「冬の名物グルメ」 ／ https://prtimes.jp/main/html/rd/p/000000011.000132184.html 株式会社フーズクリエーション・2026年漁解禁日の発表（日付照合）。京都の和食と旬の食材のつながりを紹介し、自店のカニ入荷・提供・価格・当日営業を断定しない。過去11/5実物6種を本日分として再掲せず、漫画・雨判定を代行しない。
+- 本文に一致する新規水彩1枚を生成。文字は「今日はなんの日」「11月6日」のみ、松葉ガニ1杯・和紙・縦4:5相当（1122×1402）。手足の接続と左右4本ずつの歩脚/2鋏、日付を目視照合。元PNG exec-716383ba-0331-466d-8403-147158406515.png、WebP224192bytes、Git blob 8cd713b859aba1b83a6a59395de3f441e5223ed6。生成イラストを写真・公式画像と区別。
+- 差分：kinenbi-2026-11-06.htmlと画像を追加、kinenbi.html先頭/OGP、index.htmlの日記カード、sitemap.xml新URL/更新日を同時整合。固有title/description、canonical/OGP、実掲載日2026-11-06、BlogPosting、alt、出典、電話/予約導線を付与。既存11/5実物記事・第30話酸度・営業案内を保持。
+- 検証：ローカル構文/JSON-LD/XML・日付・リンク・重複・他カード保持・CSP/外部依存の差分を確認後、同一コミットで公開。コミットは本項を含むGitHub履歴参照。GitHub保存・Pages実表示・検索再取得は別段階、直後結果は追記する。
+- 未了：Opera接続はBrowser not connected。スマホ実表示・電話/予約の実操作と検索エンジン再取得は未確認。20:15担当は公開反映を回収。Instagram等外部投稿なし。Q-001/Q-002は継承、不要な再質問なし。
+
 ### 2026-11-06 8:00｜最新導線・山法師ラベル照合・金曜外部点検
 - 予定8:00、起動7:56:51 JST、実確認開始7:57:22 JST。予定より早い起動を区別。SEARCH_CHANGELOG.md・GROWTH_OPERATIONS.md・昨夜未了・最新確定条件を先に読取。
 - 朝7:58台に https://kyouou-hajime.github.io/ 、manga.html、kinenbi.html、kinenbi-2026-11-05.html、today-2026-11-05.html、news.html、drinks.html、menu.htmlを直接HTTP200取得、8件ともGitHub全文一致、JSON-LD解析成功。トップ最新漫画は第30話「酸度とは？」、manga.html#sando・images/manga-sando-1.webpと本体が一致。別担当の公開コミットcfc4523dbd54d3854bc6a11985e50fe87ec6644b・Pages42123006187成功・3画像バイト一致の記録を継承し、漫画制作を重複しない。
