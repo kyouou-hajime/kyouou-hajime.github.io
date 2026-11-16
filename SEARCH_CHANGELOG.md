@@ -1,3 +1,9 @@
+### 2026-11-16 朝枠｜公開照合・完了記録
+- scheduled_for2026-11-16 11:00 JST、実開始11:04:45、実終了11:10:38 JST（公開照合まで、最終履歴保存除く）、実作業5.88分・遅延4.75分。成果物：投稿文1本・生成画像1枚・日付記事1件・トップ/一覧/sitemap。R/頭数対象外。
+- GitHub公開コミット574c5ddba8972ad1fcf7bb09f996b311a293e6a5、Pages run43790392872 completed/success。公開 https://kyouou-hajime.github.io/kinenbi-2026-11-16.html HTTP200・7720bytes、画像170372bytes、トップ17213bytes、一覧19508bytes、sitemap5758bytes、5件保存版と末尾改行を除き完全一致。展開前404/旧版は配信後解消。ブラウザPCで題名・日付・本文・自然薯画像・出典・18時/23時条件・電話/予約リンク実表示、スクリーンショットで見た目/画像読込を確認。
+- JSON-LD/XML/ID/日付/alt/CSP・既存可変幅CSSと最新漫画#awanashi-koboを保持。news/menu/drinks/READMEもHTTP200、該当OUT個別銘柄掲載なし。スマホ実幅・電話発信/外部予約フォーム操作・検索再取得は未確認。Instagram外部投稿なし。
+- Google11/22は前日の追加保存済み/審査待ちを引継ぎ、今回のクラウドGoogle本人確認ブロックにより結果未確認。申請を再実行しない。他媒体日別受付/Q-002は未了。次回17時は営業案内と当日有効雨判定の有無確認から1日1回判定、朝は雨判定なし。独立雨再開/新規予約/常時実行なし。定例業務が続くため既存11時/17時予約は維持。
+
 ### 2026-11-16 11:00｜自然薯の日・営業案内確認
 - scheduled_for2026-11-16 11:00 JST、実開始11:04:45（起動11:04:20と区別）、遅延4.75分。終了/作業分数は公開照合後追記。最新SEARCH_CHANGELOG.md/GROWTH_OPERATIONS.md/news/トップ/一覧を先読。同日記事404、第40話#awanashi-kobo公開完成を引継ぎ、漫画重複制作なし。
 - 題材：自然薯の日。日本記念日協会 https://www.kinenbi.gr.jp/?D=16&M=11&MD=0 と由来 https://www.kinenbi.gr.jp/yurai.php?TYPE=ofi&MD=3&NM=316 をブラウザ実読。清水元春氏・麦とろ童子が制定、「いいいも」語呂と最盛期。検索取得の由来URL404を確認完了とせず、ブラウザの同リンク詳細で取得回収。PR TIMES https://prtimes.com/magazine/today/natural-yam-day/ と照合、新潟県 https://www.pref.niigata.lg.jp/sec/syokuhin/shun11-jinenjo.html で11月収穫・長芋と種が異なる・とろろ/つみれのつなぎを確認。2026年月曜。毎月固定や遠隔地イベントの紹介でなく、和食に使う旬の食材を中心に選定。11/21自然薯芋の日は別に存在するため、前後の同食材重複採用を避ける。健康効果・当店提供/仕入れ・制定年不明の補作なし。
