@@ -9,7 +9,7 @@
 - アクセス: 京都市営地下鉄烏丸線「丸太町駅」4番・5番出口から徒歩約3分
 - 電話番号: 075-600-0511
 - 営業時間: 通常18:00開店、最終入店23:00。23:00までの電話予約等で、予約・営業状況に応じて最長翌2:00まで対応
-- 定休日: 不定休
+- 定休日: 日曜日（2日前の金曜日までにご予約をいただければ営業します。完全休業とする日もあります。最新の営業日はお知らせページをご確認ください）
 - 座席数: 14席
 - 予約: アラカルトのお席予約も可能。コースは来店日の2日前までに予約。WEB予約（res-reserve.com）または電話（075-600-0511、当日23:00まで受付）
 - Instagram: https://www.instagram.com/kyouou.hajime/
@@ -32,6 +32,7 @@
 
 - トップ: https://kyouou-hajime.github.io/
 - メニュー: https://kyouou-hajime.github.io/menu.html
+- お酒のご案内: https://kyouou-hajime.github.io/drinks.html
 - 酒匠とは: https://kyouou-hajime.github.io/sakasho.html
 - 丸太町と日本酒: https://kyouou-hajime.github.io/marutamachi-sake.html
 - 肉会（毎月29日限定の黒毛和牛コース）: https://kyouou-hajime.github.io/nikukai.html
@@ -40,6 +41,8 @@
 - よくある質問: https://kyouou-hajime.github.io/faq.html
 - お知らせ: https://kyouou-hajime.github.io/news.html
 - ブログ: https://kyouou-hajime.github.io/blog.html
+- 日本酒漫画: https://kyouou-hajime.github.io/manga.html
+- 記念日記事: https://kyouou-hajime.github.io/kinenbi.html
   - 秋あがりの日本酒「吟麗」入荷: https://kyouou-hajime.github.io/blog-hiyaoroshi.html
   - 肉会レポート（黒毛和牛コース）: https://kyouou-hajime.github.io/blog-nikukai-report.html
   - 店主が仕入れる旬の食材（つる紫・里芋）: https://kyouou-hajime.github.io/blog-ingredients.html
